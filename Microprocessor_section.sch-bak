@@ -164,28 +164,28 @@ Wire Wire Line
 	7100 3300 8400 3300
 Connection ~ 8400 2700
 Wire Wire Line
-	8600 5000 8700 5000
-Connection ~ 8600 5000
+	8600 4200 8700 4200
+Connection ~ 8600 4200
 Wire Wire Line
-	8600 4900 8600 5000
+	8600 4100 8600 4200
 Wire Wire Line
-	8400 5100 8700 5100
-Connection ~ 8400 5100
+	8400 4300 8700 4300
+Connection ~ 8400 4300
 Wire Wire Line
-	8400 4900 8400 5100
+	8400 4100 8400 4300
 Wire Wire Line
-	7100 5000 8600 5000
+	7100 4200 8600 4200
 Wire Wire Line
-	7100 5100 8400 5100
+	7100 4300 8400 4300
 Wire Wire Line
 	8600 3200 8700 3200
 Connection ~ 8600 3200
 Wire Wire Line
 	8400 2700 8600 2700
 Wire Wire Line
-	8400 4500 8600 4500
+	8400 3700 8600 3700
 Wire Wire Line
-	8600 4500 8600 4600
+	8600 3700 8600 3800
 $Comp
 L power:GND #PWR?
 U 1 1 60AD4CF4
@@ -198,52 +198,50 @@ F 3 "" H 6500 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+	7100 5100 7600 5100
+Wire Wire Line
+	7100 5000 7600 5000
+Wire Wire Line
 	7100 4900 7600 4900
-Wire Wire Line
-	7100 4800 7600 4800
-Wire Wire Line
-	7100 4700 7600 4700
-Wire Wire Line
-	7100 4600 7600 4600
-Wire Wire Line
-	7100 4500 7600 4500
-Wire Wire Line
-	7100 4400 7600 4400
-Wire Wire Line
-	7100 4300 7600 4300
-Wire Wire Line
-	7100 4200 7600 4200
 Wire Wire Line
 	7100 4100 7600 4100
 Wire Wire Line
-	7100 3800 7600 3800
+	7100 4400 7600 4400
+Wire Wire Line
+	7100 4000 7600 4000
+Wire Wire Line
+	7100 4800 7600 4800
+Wire Wire Line
+	7100 4600 7600 4600
+Wire Wire Line
+	7100 4700 7600 4700
 Wire Wire Line
 	7100 3000 7600 3000
 Wire Wire Line
 	7100 3400 7600 3400
-Text HLabel 7600 4500 2    50   Input ~ 0
+Text HLabel 7600 4100 2    50   Input ~ 0
 SPI_MISO
 Text HLabel 7600 4400 2    50   Output ~ 0
 SPI_MOSI
-Text HLabel 7600 4300 2    50   Output ~ 0
+Text HLabel 7600 4000 2    50   Output ~ 0
 SPI_SCLK
-Text HLabel 7600 4900 2    50   Input ~ 0
+Text HLabel 7600 3700 2    50   Output ~ 0
 SD_EN
-Text HLabel 7600 4800 2    50   Input ~ 0
+Text HLabel 7600 5100 2    50   Input ~ 0
 LORA_IRQ2
-Text HLabel 7600 4700 2    50   Input ~ 0
+Text HLabel 7600 5000 2    50   Input ~ 0
 LORA_IRQ1
-Text HLabel 7600 4600 2    50   Input ~ 0
+Text HLabel 7600 4900 2    50   Input ~ 0
 LORA_BUSY
-Text HLabel 7600 3400 2    50   Output ~ 0
-GNSS_EN
-Text HLabel 7600 4200 2    50   Output ~ 0
-SENS2_nRDY
-Text HLabel 7600 4100 2    50   Output ~ 0
-SENS2_EN
-Text HLabel 7600 3800 2    50   Output ~ 0
-SENS1_nRDY
 Text HLabel 7600 3000 2    50   Output ~ 0
+GNSS_EN
+Text HLabel 7600 4800 2    50   Input ~ 0
+SENS2_nRDY
+Text HLabel 7600 4600 2    50   Output ~ 0
+SENS2_EN
+Text HLabel 7600 4700 2    50   Input ~ 0
+SENS1_nRDY
+Text HLabel 7600 4500 2    50   Output ~ 0
 SENS1_EN
 Wire Wire Line
 	6500 2600 6500 1800
@@ -267,40 +265,40 @@ $EndComp
 Wire Wire Line
 	6100 1800 5750 1800
 Connection ~ 6100 1800
-Connection ~ 8400 4500
+Connection ~ 8400 3700
 Wire Wire Line
-	8400 4600 8400 4500
+	8400 3800 8400 3700
 $Comp
 L power:+3V3 #PWR?
 U 1 1 60A5A46E
-P 8400 4500
-F 0 "#PWR?" H 8400 4350 50  0001 C CNN
-F 1 "+3V3" H 8415 4673 50  0000 C CNN
-F 2 "" H 8400 4500 50  0001 C CNN
-F 3 "" H 8400 4500 50  0001 C CNN
-	1    8400 4500
+P 8400 3700
+F 0 "#PWR?" H 8400 3550 50  0001 C CNN
+F 1 "+3V3" H 8415 3873 50  0000 C CNN
+F 2 "" H 8400 3700 50  0001 C CNN
+F 3 "" H 8400 3700 50  0001 C CNN
+	1    8400 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 60A5A468
-P 8600 4750
-F 0 "R?" H 8670 4796 50  0000 L CNN
-F 1 "10k" H 8670 4705 50  0000 L CNN
-F 2 "" V 8530 4750 50  0001 C CNN
-F 3 "~" H 8600 4750 50  0001 C CNN
-	1    8600 4750
+P 8600 3950
+F 0 "R?" H 8670 3996 50  0000 L CNN
+F 1 "10k" H 8670 3905 50  0000 L CNN
+F 2 "" V 8530 3950 50  0001 C CNN
+F 3 "~" H 8600 3950 50  0001 C CNN
+	1    8600 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 60A5A462
-P 8400 4750
-F 0 "R?" H 8330 4796 50  0000 R CNN
-F 1 "10k" H 8330 4705 50  0000 R CNN
-F 2 "" V 8330 4750 50  0001 C CNN
-F 3 "~" H 8400 4750 50  0001 C CNN
-	1    8400 4750
+P 8400 3950
+F 0 "R?" H 8330 3996 50  0000 R CNN
+F 1 "10k" H 8330 3905 50  0000 R CNN
+F 2 "" V 8330 3950 50  0001 C CNN
+F 3 "~" H 8400 3950 50  0001 C CNN
+	1    8400 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -404,9 +402,9 @@ Wire Wire Line
 	7600 3500 7100 3500
 Wire Wire Line
 	7600 3600 7100 3600
-Text HLabel 8700 5100 2    50   Output ~ 0
+Text HLabel 8700 4300 2    50   Output ~ 0
 SPI_SD_CSN
-Text HLabel 8700 5000 2    50   Output ~ 0
+Text HLabel 8700 4200 2    50   Output ~ 0
 SPI_LORA_CSN
 Text HLabel 8700 3300 2    50   BiDi ~ 0
 I2C_SDA
@@ -528,12 +526,14 @@ F 3 "" H 2300 4600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4100 4100 4100 4600
-Text HLabel 7600 3900 2    50   Output ~ 0
-UART2_TX
-Text HLabel 7600 4000 2    50   Input ~ 0
-UART2_RX
-Wire Wire Line
-	7600 4000 7100 4000
 Wire Wire Line
 	7100 3900 7600 3900
+Wire Wire Line
+	7600 3800 7100 3800
+Text HLabel 7600 3800 2    50   Input ~ 0
+UART2_RX
+Text HLabel 7600 3900 2    50   Output ~ 0
+UART2_TX
+Wire Wire Line
+	7600 4500 7100 4500
 $EndSCHEMATC
