@@ -13,4 +13,293 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L RF_Module:RFM95W-868S2 U?
+U 1 1 60A66EAC
+P 4400 3900
+F 0 "U?" H 4400 4581 50  0000 C CNN
+F 1 "RFM95W-868S2" H 4400 4490 50  0000 C CNN
+F 2 "" H 1100 5550 50  0001 C CNN
+F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf" H 1100 5550 50  0001 C CNN
+	1    4400 3900
+	1    0    0    -1  
+$EndComp
+Text HLabel 3700 3600 0    50   Input ~ 0
+SCLK
+Text HLabel 3700 3700 0    50   Input ~ 0
+MOSI
+Text HLabel 3700 3800 0    50   Output ~ 0
+MISO
+Text HLabel 3700 3900 0    50   Input ~ 0
+CSN
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60A68377
+P 4400 3100
+F 0 "#PWR?" H 4400 2950 50  0001 C CNN
+F 1 "+3V3" H 4415 3273 50  0000 C CNN
+F 2 "" H 4400 3100 50  0001 C CNN
+F 3 "" H 4400 3100 50  0001 C CNN
+	1    4400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A684F7
+P 4400 4650
+F 0 "#PWR?" H 4400 4400 50  0001 C CNN
+F 1 "GND" H 4405 4477 50  0000 C CNN
+F 2 "" H 4400 4650 50  0001 C CNN
+F 3 "" H 4400 4650 50  0001 C CNN
+	1    4400 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4500 4300 4550
+Wire Wire Line
+	4300 4550 4400 4550
+Wire Wire Line
+	4400 4550 4400 4650
+Wire Wire Line
+	4400 4500 4400 4550
+Connection ~ 4400 4550
+Wire Wire Line
+	4500 4500 4500 4550
+Wire Wire Line
+	4500 4550 4400 4550
+Wire Wire Line
+	4400 3400 4400 3100
+Wire Wire Line
+	3700 3900 3900 3900
+Wire Wire Line
+	3700 3800 3900 3800
+Wire Wire Line
+	3700 3700 3900 3700
+Wire Wire Line
+	3700 3600 3900 3600
+NoConn ~ 3900 4100
+Wire Wire Line
+	4900 3600 5000 3600
+Wire Wire Line
+	5000 3600 5000 3500
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 60A6BDC1
+P 5650 3350
+F 0 "J?" H 5758 3531 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5758 3440 50  0000 C CNN
+F 2 "" H 5650 3350 50  0001 C CNN
+F 3 "~" H 5650 3350 50  0001 C CNN
+	1    5650 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 60A6C78E
+P 6050 3350
+F 0 "J?" H 6158 3531 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6158 3440 50  0000 C CNN
+F 2 "" H 6050 3350 50  0001 C CNN
+F 3 "~" H 6050 3350 50  0001 C CNN
+	1    6050 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 60A6C92B
+P 5550 4750
+F 0 "J?" H 5658 4931 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5658 4840 50  0000 C CNN
+F 2 "" H 5550 4750 50  0001 C CNN
+F 3 "~" H 5550 4750 50  0001 C CNN
+	1    5550 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 60A6CADE
+P 5950 4750
+F 0 "J?" H 6058 4931 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6058 4840 50  0000 C CNN
+F 2 "" H 5950 4750 50  0001 C CNN
+F 3 "~" H 5950 4750 50  0001 C CNN
+	1    5950 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 60A6CCA7
+P 6450 3350
+F 0 "J?" H 6558 3531 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6558 3440 50  0000 C CNN
+F 2 "" H 6450 3350 50  0001 C CNN
+F 3 "~" H 6450 3350 50  0001 C CNN
+	1    6450 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 60A6CE81
+P 6350 4750
+F 0 "J?" H 6458 4931 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6458 4840 50  0000 C CNN
+F 2 "" H 6350 4750 50  0001 C CNN
+F 3 "~" H 6350 4750 50  0001 C CNN
+	1    6350 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4900 3800 5550 3800
+Wire Wire Line
+	5550 3800 5550 3550
+Wire Wire Line
+	4900 3900 5950 3900
+Wire Wire Line
+	5950 3900 5950 3550
+Wire Wire Line
+	4900 4000 6350 4000
+Wire Wire Line
+	6350 4000 6350 3550
+Wire Wire Line
+	4900 4300 5550 4300
+Wire Wire Line
+	5550 4300 5550 4550
+Wire Wire Line
+	5950 4200 5950 4550
+Wire Wire Line
+	5650 4550 5650 4450
+Wire Wire Line
+	6050 4550 6050 4450
+Wire Wire Line
+	6350 4550 6350 4100
+Wire Wire Line
+	6450 4550 6450 4450
+Wire Wire Line
+	5650 3550 5650 3650
+Wire Wire Line
+	5650 3650 6050 3650
+Wire Wire Line
+	6050 3550 6050 3650
+Connection ~ 6050 3650
+Wire Wire Line
+	6050 3650 6450 3650
+Wire Wire Line
+	6450 3550 6450 3650
+Connection ~ 6450 3650
+Wire Wire Line
+	6450 3650 6850 3650
+Text HLabel 6850 3650 2    50   Output ~ 0
+IRQ1
+Text HLabel 6850 4450 2    50   Output ~ 0
+IRQ2
+Connection ~ 6450 4450
+Wire Wire Line
+	6450 4450 6850 4450
+Wire Wire Line
+	4900 4100 6350 4100
+Connection ~ 6050 4450
+Wire Wire Line
+	6050 4450 6450 4450
+Wire Wire Line
+	5650 4450 6050 4450
+Wire Wire Line
+	4900 4200 5950 4200
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60A81EA0
+P 3000 3100
+F 0 "#PWR?" H 3000 2950 50  0001 C CNN
+F 1 "+3V3" H 3015 3273 50  0000 C CNN
+F 2 "" H 3000 3100 50  0001 C CNN
+F 3 "" H 3000 3100 50  0001 C CNN
+	1    3000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A83B85
+P 3000 3500
+F 0 "#PWR?" H 3000 3250 50  0001 C CNN
+F 1 "GND" H 3005 3327 50  0000 C CNN
+F 2 "" H 3000 3500 50  0001 C CNN
+F 3 "" H 3000 3500 50  0001 C CNN
+	1    3000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A845BF
+P 3000 3300
+F 0 "C?" H 3115 3346 50  0000 L CNN
+F 1 "100n" H 3115 3255 50  0000 L CNN
+F 2 "" H 3038 3150 50  0001 C CNN
+F 3 "~" H 3000 3300 50  0001 C CNN
+	1    3000 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3500 3000 3450
+Wire Wire Line
+	3000 3150 3000 3100
+$Comp
+L power:GND #PWR?
+U 1 1 60A85D82
+P 2500 3500
+F 0 "#PWR?" H 2500 3250 50  0001 C CNN
+F 1 "GND" H 2505 3327 50  0000 C CNN
+F 2 "" H 2500 3500 50  0001 C CNN
+F 3 "" H 2500 3500 50  0001 C CNN
+	1    2500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60A86C18
+P 2500 3100
+F 0 "#PWR?" H 2500 2950 50  0001 C CNN
+F 1 "+3V3" H 2515 3273 50  0000 C CNN
+F 2 "" H 2500 3100 50  0001 C CNN
+F 3 "" H 2500 3100 50  0001 C CNN
+	1    2500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A882A8
+P 2500 3300
+F 0 "C?" H 2615 3346 50  0000 L CNN
+F 1 "1u" H 2615 3255 50  0000 L CNN
+F 2 "" H 2538 3150 50  0001 C CNN
+F 3 "~" H 2500 3300 50  0001 C CNN
+	1    2500 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3500 2500 3450
+Wire Wire Line
+	2500 3150 2500 3100
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 60A7FEF3
+P 5000 3300
+F 0 "J?" V 5237 3229 50  0000 C CNN
+F 1 "SMA Female" V 5146 3229 50  0000 C CNN
+F 2 "" H 5000 3300 50  0001 C CNN
+F 3 " ~" H 5000 3300 50  0001 C CNN
+	1    5000 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A8218B
+P 5200 3400
+F 0 "#PWR?" H 5200 3150 50  0001 C CNN
+F 1 "GND" H 5205 3227 50  0000 C CNN
+F 2 "" H 5200 3400 50  0001 C CNN
+F 3 "" H 5200 3400 50  0001 C CNN
+	1    5200 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3400 5200 3300
 $EndSCHEMATC

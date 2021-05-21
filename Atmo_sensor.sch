@@ -88,63 +88,41 @@ F 3 "" H 5600 2700 50  0001 C CNN
 	1    5600 2700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 60A54F5B
-P 5900 3050
-F 0 "R?" H 5830 3096 50  0000 R CNN
-F 1 "4k7" H 5830 3005 50  0000 R CNN
-F 2 "" V 5830 3050 50  0001 C CNN
-F 3 "~" H 5900 3050 50  0001 C CNN
-	1    5900 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 60A558B2
-P 6100 3050
-F 0 "R?" H 6170 3096 50  0000 L CNN
-F 1 "4k7" H 6170 3005 50  0000 L CNN
-F 2 "" V 6030 3050 50  0001 C CNN
-F 3 "~" H 6100 3050 50  0001 C CNN
-	1    6100 3050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5500 3700 5600 3700
 Wire Wire Line
 	5600 3700 5600 3100
 Wire Wire Line
 	5600 3100 5500 3100
-Wire Wire Line
-	5600 3100 5600 2800
-Wire Wire Line
-	5600 2800 5600 2700
 Connection ~ 5600 3100
-Wire Wire Line
-	6100 2800 6100 2900
-Wire Wire Line
-	5900 2900 5900 2800
-Wire Wire Line
-	5900 3200 5900 3300
-Connection ~ 5600 2800
-Connection ~ 5900 2800
-Wire Wire Line
-	5900 2800 6100 2800
-Wire Wire Line
-	5600 2800 5900 2800
-Connection ~ 5900 3300
-Wire Wire Line
-	5500 3300 5900 3300
-Wire Wire Line
-	6100 3200 6100 3500
-Wire Wire Line
-	5500 3500 6100 3500
-Connection ~ 6100 3500
-Wire Wire Line
-	6100 3500 6200 3500
-Wire Wire Line
-	5900 3300 6200 3300
 Text Notes 5650 3650 0    50   ~ 0
 I2C Addr: 1110111
+Wire Wire Line
+	5500 3300 6200 3300
+Wire Wire Line
+	5500 3500 6200 3500
+Wire Wire Line
+	5600 2700 5600 3100
+$Comp
+L power:GND #PWR?
+U 1 1 60A536E3
+P 4900 4100
+F 0 "#PWR?" H 4900 3850 50  0001 C CNN
+F 1 "GND" H 4905 3927 50  0000 C CNN
+F 2 "" H 4900 4100 50  0001 C CNN
+F 3 "" H 4900 4100 50  0001 C CNN
+	1    4900 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4000 4800 4050
+Wire Wire Line
+	5000 4000 5000 4050
+Wire Wire Line
+	5000 4050 4900 4050
+Wire Wire Line
+	4900 4050 4900 4100
+Connection ~ 4900 4050
+Wire Wire Line
+	4900 4050 4800 4050
 $EndSCHEMATC

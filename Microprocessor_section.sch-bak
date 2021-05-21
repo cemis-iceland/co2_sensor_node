@@ -536,4 +536,6 @@ Text HLabel 7600 3900 2    50   Output ~ 0
 UART2_TX
 Wire Wire Line
 	7600 4500 7100 4500
+Text Notes 8100 4450 0    50   ~ 0
+Refer to ESP32 Technical reference manual section 4.4 and 4.10\n
 $EndSCHEMATC
