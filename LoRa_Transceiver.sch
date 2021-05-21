@@ -78,17 +78,6 @@ Wire Wire Line
 Wire Wire Line
 	3700 3600 3900 3600
 NoConn ~ 3900 4100
-$Comp
-L Device:Antenna AE?
-U 1 1 60A69F39
-P 5000 3300
-F 0 "AE?" H 5080 3289 50  0000 L CNN
-F 1 "Antenna" H 5080 3198 50  0000 L CNN
-F 2 "" H 5000 3300 50  0001 C CNN
-F 3 "~" H 5000 3300 50  0001 C CNN
-	1    5000 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4900 3600 5000 3600
 Wire Wire Line
@@ -289,4 +278,28 @@ Wire Wire Line
 	2500 3500 2500 3450
 Wire Wire Line
 	2500 3150 2500 3100
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 60A7FEF3
+P 5000 3300
+F 0 "J?" V 5237 3229 50  0000 C CNN
+F 1 "SMA Female" V 5146 3229 50  0000 C CNN
+F 2 "" H 5000 3300 50  0001 C CNN
+F 3 " ~" H 5000 3300 50  0001 C CNN
+	1    5000 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A8218B
+P 5200 3400
+F 0 "#PWR?" H 5200 3150 50  0001 C CNN
+F 1 "GND" H 5205 3227 50  0000 C CNN
+F 2 "" H 5200 3400 50  0001 C CNN
+F 3 "" H 5200 3400 50  0001 C CNN
+	1    5200 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3400 5200 3300
 $EndSCHEMATC
