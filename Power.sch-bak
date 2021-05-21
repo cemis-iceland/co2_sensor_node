@@ -24,4 +24,26 @@ F 3 "" H 5350 4850 50  0001 C CNN
 	1    5500 4100
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A8311C
+P 5350 4350
+F 0 "#PWR?" H 5350 4100 50  0001 C CNN
+F 1 "GND" H 5355 4177 50  0000 C CNN
+F 2 "" H 5350 4350 50  0001 C CNN
+F 3 "" H 5350 4350 50  0001 C CNN
+	1    5350 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4000 4850 4000
+Wire Wire Line
+	4850 4000 4850 4300
+Wire Wire Line
+	4850 4300 5350 4300
+Wire Wire Line
+	5350 4300 5350 4350
+Wire Wire Line
+	5350 4200 5350 4300
+Connection ~ 5350 4300
 $EndSCHEMATC
