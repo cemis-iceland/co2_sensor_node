@@ -213,8 +213,8 @@ Wire Wire Line
 	3600 3700 4900 3700
 Wire Wire Line
 	3600 3600 4900 3600
-Text Notes 3600 4600 0    50   ~ 0
-I2C Addr: 1110110
 Text Notes 3600 5300 0    50   ~ 0
 I2C Addr: 1000010
+Text Notes 3600 4600 0    50   ~ 0
+I2C Addr: 1110110
 $EndSCHEMATC
