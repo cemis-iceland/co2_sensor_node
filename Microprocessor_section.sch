@@ -424,7 +424,7 @@ U 1 1 60A91701
 P 5200 3050
 F 0 "SW1" V 5150 3300 50  0000 R CNN
 F 1 "K2-1102SP-C4SC-04" V 5250 3150 50  0000 L CNN
-F 2 "" H 5200 3250 50  0001 C CNN
+F 2 "co2_sensor_node:K2-1102SP-xxxC" H 5200 3250 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1811082113_Korean-Hroparts-Elec-K2-1102SP-C4SC-04_C127509.pdf" H 5200 3250 50  0001 C CNN
 F 4 "https://lcsc.com/product-detail/Tactile-Switches_Korean-Hroparts-Elec-K2-1102SP-C4SC-04_C127509.html/?href=jlc-SMT" V 5200 3050 50  0001 C CNN "LCSC"
 	1    5200 3050

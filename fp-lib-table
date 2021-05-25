@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name co2_sensor_node)(type KiCad)(uri D:/work2021/co2_sensor_node.pretty)(options "")(descr ""))
+)
