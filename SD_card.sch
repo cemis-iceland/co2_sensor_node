@@ -84,12 +84,20 @@ Wire Wire Line
 	7000 4400 7000 4500
 NoConn ~ 5200 3500
 NoConn ~ 5200 4200
-NoConn ~ 5200 4300
-NoConn ~ 5200 4400
 Wire Wire Line
-	5000 4000 5000 4500
+	5000 4000 5000 4300
 Wire Wire Line
 	4900 3900 5200 3900
 Text HLabel 5000 3100 0    50   Input ~ 0
 ENABLE
+Wire Wire Line
+	5200 4300 5000 4300
+Connection ~ 5000 4300
+Wire Wire Line
+	5000 4300 5000 4400
+Wire Wire Line
+	5200 4400 5000 4400
+Connection ~ 5000 4400
+Wire Wire Line
+	5000 4400 5000 4500
 $EndSCHEMATC

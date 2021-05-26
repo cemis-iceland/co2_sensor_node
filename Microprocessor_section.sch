@@ -156,38 +156,28 @@ F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 3200 8600 3200
+	8500 5100 8500 5300
 Wire Wire Line
-	8400 3100 8400 3300
+	8500 5300 8800 5300
+Connection ~ 8500 4700
 Wire Wire Line
-	8400 3300 8700 3300
-Connection ~ 8400 3300
+	8700 4200 8800 4200
+Connection ~ 8700 4200
 Wire Wire Line
-	7100 3300 8400 3300
-Connection ~ 8400 2700
+	8700 4100 8700 4200
 Wire Wire Line
-	8600 4200 8700 4200
-Connection ~ 8600 4200
+	8500 4300 8800 4300
+Connection ~ 8500 4300
 Wire Wire Line
-	8600 4100 8600 4200
+	8500 4100 8500 4300
 Wire Wire Line
-	8400 4300 8700 4300
-Connection ~ 8400 4300
+	8700 5200 8800 5200
 Wire Wire Line
-	8400 4100 8400 4300
+	8500 4700 8700 4700
 Wire Wire Line
-	7100 4200 8600 4200
+	8500 3700 8700 3700
 Wire Wire Line
-	7100 4300 8400 4300
-Wire Wire Line
-	8600 3200 8700 3200
-Connection ~ 8600 3200
-Wire Wire Line
-	8400 2700 8600 2700
-Wire Wire Line
-	8400 3700 8600 3700
-Wire Wire Line
-	8600 3700 8600 3800
+	8700 3700 8700 3800
 $Comp
 L power:GND #PWR064
 U 1 1 60AD4CF4
@@ -200,9 +190,9 @@ F 3 "" H 6500 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 5100 7600 5100
+	7100 3300 7600 3300
 Wire Wire Line
-	7100 5000 7600 5000
+	7100 4200 7600 4200
 Wire Wire Line
 	7100 4100 7600 4100
 Wire Wire Line
@@ -225,21 +215,21 @@ Text HLabel 7600 4400 2    50   Output ~ 0
 SPI_MOSI
 Text HLabel 7600 4000 2    50   Output ~ 0
 SPI_SCLK
-Text HLabel 7600 3700 2    50   Output ~ 0
+Text HLabel 8800 4700 2    50   Output ~ 0
 SD_EN
-Text HLabel 7600 5100 2    50   Input ~ 0
+Text HLabel 7600 3300 2    50   Input ~ 0
 LORA_IRQ2
-Text HLabel 7600 5000 2    50   Input ~ 0
+Text HLabel 7600 4200 2    50   Input ~ 0
 LORA_IRQ1
-Text HLabel 7600 3000 2    50   Output ~ 0
+Text HLabel 7600 4600 2    50   Output ~ 0
 GNSS_EN
 Text HLabel 7600 4800 2    50   Input ~ 0
 SENS2_nRDY
-Text HLabel 7600 4600 2    50   Output ~ 0
+Text HLabel 7600 3700 2    50   Output ~ 0
 SENS2_EN
 Text HLabel 7600 4700 2    50   Input ~ 0
 SENS1_nRDY
-Text HLabel 7600 4500 2    50   Output ~ 0
+Text HLabel 7600 3000 2    50   Output ~ 0
 SENS1_EN
 Wire Wire Line
 	6500 2600 6500 1800
@@ -263,83 +253,83 @@ $EndComp
 Wire Wire Line
 	6100 1800 5750 1800
 Connection ~ 6100 1800
-Connection ~ 8400 3700
+Connection ~ 8500 3700
 Wire Wire Line
-	8400 3800 8400 3700
+	8500 3800 8500 3700
 $Comp
 L power:+3V3 #PWR066
 U 1 1 60A5A46E
-P 8400 3700
-F 0 "#PWR066" H 8400 3550 50  0001 C CNN
-F 1 "+3V3" H 8415 3873 50  0000 C CNN
-F 2 "" H 8400 3700 50  0001 C CNN
-F 3 "" H 8400 3700 50  0001 C CNN
-	1    8400 3700
+P 8500 3700
+F 0 "#PWR066" H 8500 3550 50  0001 C CNN
+F 1 "+3V3" H 8515 3873 50  0000 C CNN
+F 2 "" H 8500 3700 50  0001 C CNN
+F 3 "" H 8500 3700 50  0001 C CNN
+	1    8500 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R19
 U 1 1 60A5A468
-P 8600 3950
-F 0 "R19" H 8670 3996 50  0000 L CNN
-F 1 "10k" H 8670 3905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8530 3950 50  0001 C CNN
-F 3 "~" H 8600 3950 50  0001 C CNN
-F 4 "C25804" H 8600 3950 50  0001 C CNN "LCSC"
-	1    8600 3950
+P 8700 3950
+F 0 "R19" H 8770 3996 50  0000 L CNN
+F 1 "10k" H 8770 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8630 3950 50  0001 C CNN
+F 3 "~" H 8700 3950 50  0001 C CNN
+F 4 "C25804" H 8700 3950 50  0001 C CNN "LCSC"
+	1    8700 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R17
 U 1 1 60A5A462
-P 8400 3950
-F 0 "R17" H 8330 3996 50  0000 R CNN
-F 1 "10k" H 8330 3905 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8330 3950 50  0001 C CNN
-F 3 "~" H 8400 3950 50  0001 C CNN
-F 4 "C25804" H 8400 3950 50  0001 C CNN "LCSC"
-	1    8400 3950
+P 8500 3950
+F 0 "R17" H 8430 3996 50  0000 R CNN
+F 1 "10k" H 8430 3905 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8430 3950 50  0001 C CNN
+F 3 "~" H 8500 3950 50  0001 C CNN
+F 4 "C25804" H 8500 3950 50  0001 C CNN "LCSC"
+	1    8500 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 2800 8400 2700
+	8500 4800 8500 4700
 Wire Wire Line
-	8600 2800 8600 2700
+	8700 4800 8700 4700
 Wire Wire Line
-	8600 3200 8600 3100
+	8700 5200 8700 5100
 $Comp
 L power:+3V3 #PWR065
 U 1 1 60A5400B
-P 8400 2700
-F 0 "#PWR065" H 8400 2550 50  0001 C CNN
-F 1 "+3V3" H 8415 2873 50  0000 C CNN
-F 2 "" H 8400 2700 50  0001 C CNN
-F 3 "" H 8400 2700 50  0001 C CNN
-	1    8400 2700
+P 8500 4700
+F 0 "#PWR065" H 8500 4550 50  0001 C CNN
+F 1 "+3V3" H 8515 4873 50  0000 C CNN
+F 2 "" H 8500 4700 50  0001 C CNN
+F 3 "" H 8500 4700 50  0001 C CNN
+	1    8500 4700
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R16
 U 1 1 60A50D69
-P 8400 2950
-F 0 "R16" H 8470 2996 50  0000 L CNN
-F 1 "4k7" H 8470 2905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8330 2950 50  0001 C CNN
-F 3 "~" H 8400 2950 50  0001 C CNN
-F 4 "C23162" H 8400 2950 50  0001 C CNN "LCSC"
-	1    8400 2950
+P 8500 4950
+F 0 "R16" H 8570 4996 50  0000 L CNN
+F 1 "4k7" H 8570 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8430 4950 50  0001 C CNN
+F 3 "~" H 8500 4950 50  0001 C CNN
+F 4 "C23162" H 8500 4950 50  0001 C CNN "LCSC"
+	1    8500 4950
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R18
 U 1 1 60A501AF
-P 8600 2950
-F 0 "R18" H 8670 2996 50  0000 L CNN
-F 1 "4k7" H 8670 2905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8530 2950 50  0001 C CNN
-F 3 "~" H 8600 2950 50  0001 C CNN
-F 4 "C23162" H 8600 2950 50  0001 C CNN "LCSC"
-	1    8600 2950
+P 8700 4950
+F 0 "R18" H 8770 4996 50  0000 L CNN
+F 1 "4k7" H 8770 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8630 4950 50  0001 C CNN
+F 3 "~" H 8700 4950 50  0001 C CNN
+F 4 "C23162" H 8700 4950 50  0001 C CNN "LCSC"
+	1    8700 4950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -406,13 +396,13 @@ Wire Wire Line
 	7600 3500 7100 3500
 Wire Wire Line
 	7600 3600 7100 3600
-Text HLabel 8700 4300 2    50   Output ~ 0
+Text HLabel 8800 4300 2    50   Output ~ 0
 SPI_SD_CSN
-Text HLabel 8700 4200 2    50   Output ~ 0
+Text HLabel 8800 4200 2    50   Output ~ 0
 SPI_LORA_CSN
-Text HLabel 8700 3300 2    50   BiDi ~ 0
+Text HLabel 8800 5300 2    50   BiDi ~ 0
 I2C_SDA
-Text HLabel 8700 3200 2    50   BiDi ~ 0
+Text HLabel 8800 5200 2    50   BiDi ~ 0
 I2C_SCL
 Text HLabel 7600 3600 2    50   Input ~ 0
 UART1_RX
@@ -518,19 +508,16 @@ $EndComp
 Wire Wire Line
 	4100 4100 4100 4600
 Wire Wire Line
-	7100 3900 7600 3900
+	7100 4500 7600 4500
 Wire Wire Line
-	7600 3800 7100 3800
-Text HLabel 7600 3800 2    50   Input ~ 0
+	7600 4900 7100 4900
+Text HLabel 7600 4900 2    50   Input ~ 0
 UART2_RX
-Text HLabel 7600 3900 2    50   Output ~ 0
+Text HLabel 7600 4500 2    50   Output ~ 0
 UART2_TX
-Wire Wire Line
-	7600 4500 7100 4500
-Text Notes 8100 4450 0    50   ~ 0
+Text Notes 8200 4450 0    50   ~ 0
 Refer to ESP32 Technical reference manual section 4.4 and 4.10\n
 NoConn ~ 7600 3400
-NoConn ~ 7100 4900
 Wire Wire Line
 	2300 4100 2300 4200
 Connection ~ 2300 4100
@@ -548,4 +535,26 @@ F 4 "https://lcsc.com/product-detail/Tactile-Switches_Korean-Hroparts-Elec-K2-11
 	1    5200 3050
 	0    -1   -1   0   
 $EndComp
+Connection ~ 8700 5200
+Connection ~ 8500 5300
+Wire Wire Line
+	7100 4300 8500 4300
+Wire Wire Line
+	7100 3200 8200 3200
+Wire Wire Line
+	8200 3200 8200 4200
+Wire Wire Line
+	8200 4200 8700 4200
+Wire Wire Line
+	8200 5200 8700 5200
+Wire Wire Line
+	8100 5300 8500 5300
+Wire Wire Line
+	7100 5000 8200 5000
+Wire Wire Line
+	8200 5000 8200 5200
+Wire Wire Line
+	8100 5300 8100 5100
+Wire Wire Line
+	8100 5100 7100 5100
 $EndSCHEMATC

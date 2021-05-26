@@ -85,24 +85,24 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Male J9
 U 1 1 60A6BDC1
-P 5650 3350
-F 0 "J9" H 5758 3531 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 5758 3440 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5650 3350 50  0001 C CNN
-F 3 "~" H 5650 3350 50  0001 C CNN
-	1    5650 3350
-	0    1    1    0   
+P 5550 3350
+F 0 "J9" H 5658 3531 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5658 3440 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 5550 3350 50  0001 C CNN
+F 3 "~" H 5550 3350 50  0001 C CNN
+	1    5550 3350
+	0    -1   1    0   
 $EndComp
 $Comp
 L Connector:Conn_01x02_Male J11
 U 1 1 60A6C78E
-P 6050 3350
-F 0 "J11" H 6158 3531 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 6158 3440 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6050 3350 50  0001 C CNN
-F 3 "~" H 6050 3350 50  0001 C CNN
-	1    6050 3350
-	0    1    1    0   
+P 5950 3350
+F 0 "J11" H 6058 3531 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6058 3440 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 5950 3350 50  0001 C CNN
+F 3 "~" H 5950 3350 50  0001 C CNN
+	1    5950 3350
+	0    -1   1    0   
 $EndComp
 $Comp
 L Connector:Conn_01x02_Male J8
@@ -110,7 +110,7 @@ U 1 1 60A6C92B
 P 5550 4750
 F 0 "J8" H 5658 4931 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 5658 4840 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5550 4750 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 5550 4750 50  0001 C CNN
 F 3 "~" H 5550 4750 50  0001 C CNN
 	1    5550 4750
 	0    -1   -1   0   
@@ -121,7 +121,7 @@ U 1 1 60A6CADE
 P 5950 4750
 F 0 "J10" H 6058 4931 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 6058 4840 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5950 4750 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 5950 4750 50  0001 C CNN
 F 3 "~" H 5950 4750 50  0001 C CNN
 	1    5950 4750
 	0    -1   -1   0   
@@ -129,13 +129,13 @@ $EndComp
 $Comp
 L Connector:Conn_01x02_Male J13
 U 1 1 60A6CCA7
-P 6450 3350
-F 0 "J13" H 6558 3531 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 6558 3440 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6450 3350 50  0001 C CNN
-F 3 "~" H 6450 3350 50  0001 C CNN
-	1    6450 3350
-	0    1    1    0   
+P 6350 3350
+F 0 "J13" H 6458 3531 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6458 3440 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 6350 3350 50  0001 C CNN
+F 3 "~" H 6350 3350 50  0001 C CNN
+	1    6350 3350
+	0    -1   1    0   
 $EndComp
 $Comp
 L Connector:Conn_01x02_Male J12
@@ -143,7 +143,7 @@ U 1 1 60A6CE81
 P 6350 4750
 F 0 "J12" H 6458 4931 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 6458 4840 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6350 4750 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 6350 4750 50  0001 C CNN
 F 3 "~" H 6350 4750 50  0001 C CNN
 	1    6350 4750
 	0    -1   -1   0   
