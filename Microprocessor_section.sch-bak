@@ -418,18 +418,6 @@ Text HLabel 7600 3600 2    50   Input ~ 0
 UART1_RX
 Text HLabel 7600 3500 2    50   Output ~ 0
 UART1_TX
-$Comp
-L Switch:SW_MEC_5G SW1
-U 1 1 60A91701
-P 5200 3050
-F 0 "SW1" V 5150 3300 50  0000 R CNN
-F 1 "K2-1102SP-C4SC-04" V 5250 3150 50  0000 L CNN
-F 2 "co2_sensor_node:K2-1102SP-xxxC" H 5200 3250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811082113_Korean-Hroparts-Elec-K2-1102SP-C4SC-04_C127509.pdf" H 5200 3250 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Tactile-Switches_Korean-Hroparts-Elec-K2-1102SP-C4SC-04_C127509.html/?href=jlc-SMT" V 5200 3050 50  0001 C CNN "LCSC"
-	1    5200 3050
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	5200 2800 5200 2850
 Connection ~ 5200 2800
@@ -548,4 +536,16 @@ Wire Wire Line
 Connection ~ 2300 4100
 Wire Wire Line
 	2300 4100 2600 4100
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60B19388
+P 5200 3050
+F 0 "SW?" V 5246 3150 50  0000 L CNN
+F 1 "K2-1102SP-C4SC-04" V 5118 3150 50  0000 L CNN
+F 2 "co2_sensor_node:K2-1102SP-xxxC" H 5200 3250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811082113_Korean-Hroparts-Elec-K2-1102SP-C4SC-04_C127509.pdf" H 5200 3250 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Tactile-Switches_Korean-Hroparts-Elec-K2-1102SP-C4SC-04_C127509.html/?href=jlc-SMT" V 5200 3050 50  0001 C CNN "LCSC"
+	1    5200 3050
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
