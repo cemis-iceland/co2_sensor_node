@@ -190,9 +190,9 @@ F 3 "" H 6500 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 3300 7600 3300
-Wire Wire Line
 	7100 4200 7600 4200
+Wire Wire Line
+	7100 3300 7600 3300
 Wire Wire Line
 	7100 4100 7600 4100
 Wire Wire Line
@@ -217,9 +217,9 @@ Text HLabel 7600 4000 2    50   Output ~ 0
 SPI_SCLK
 Text HLabel 8800 4700 2    50   Output ~ 0
 SD_EN
-Text HLabel 7600 3300 2    50   Input ~ 0
-LORA_IRQ2
 Text HLabel 7600 4200 2    50   Input ~ 0
+LORA_IRQ2
+Text HLabel 7600 3300 2    50   Input ~ 0
 LORA_IRQ1
 Text HLabel 7600 4600 2    50   Output ~ 0
 GNSS_EN
@@ -400,9 +400,9 @@ Text HLabel 8800 4300 2    50   Output ~ 0
 SPI_SD_CSN
 Text HLabel 8800 4200 2    50   Output ~ 0
 SPI_LORA_CSN
-Text HLabel 8800 5300 2    50   BiDi ~ 0
-I2C_SDA
 Text HLabel 8800 5200 2    50   BiDi ~ 0
+I2C_SDA
+Text HLabel 8800 5300 2    50   BiDi ~ 0
 I2C_SCL
 Text HLabel 7600 3600 2    50   Input ~ 0
 UART1_RX
@@ -421,13 +421,13 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Male JP3
 U 1 1 60AA0F54
-P 2000 4000
-F 0 "JP3" H 2108 4181 50  0000 C CNN
-F 1 "MTDO_JP" H 2108 4090 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2000 4000 50  0001 C CNN
-F 3 "~" H 2000 4000 50  0001 C CNN
-	1    2000 4000
-	1    0    0    -1  
+P 2000 4100
+F 0 "JP3" H 2100 3800 50  0000 C CNN
+F 1 "MTDO_JP" H 2100 3900 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2000 4100 50  0001 C CNN
+F 3 "~" H 2000 4100 50  0001 C CNN
+	1    2000 4100
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	2200 4100 2300 4100
@@ -508,12 +508,12 @@ $EndComp
 Wire Wire Line
 	4100 4100 4100 4600
 Wire Wire Line
-	7100 4500 7600 4500
+	7100 4900 7600 4900
 Wire Wire Line
-	7600 4900 7100 4900
-Text HLabel 7600 4900 2    50   Input ~ 0
+	7600 4500 7100 4500
+Text HLabel 7600 4500 2    50   Input ~ 0
 UART2_RX
-Text HLabel 7600 4500 2    50   Output ~ 0
+Text HLabel 7600 4900 2    50   Output ~ 0
 UART2_TX
 Text Notes 8200 4450 0    50   ~ 0
 Refer to ESP32 Technical reference manual section 4.4 and 4.10\n
