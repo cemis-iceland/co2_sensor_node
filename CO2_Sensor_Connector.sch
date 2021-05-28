@@ -31,6 +31,7 @@ F 0 "J1" H 5692 4385 50  0000 C CNN
 F 1 "Conn_01x07_Female" H 5692 4294 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 5800 3900 50  0001 C CNN
 F 3 "~" H 5800 3900 50  0001 C CNN
+F 4 "C358721" H 5800 3900 50  0001 C CNN "LCSC"
 	1    5800 3900
 	-1   0    0    -1  
 $EndComp
@@ -117,6 +118,7 @@ F 0 "JP1" V 4650 2850 50  0000 L CNN
 F 1 "PWR_JP" V 4750 2850 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4800 3000 50  0001 C CNN
 F 3 "~" H 4800 3000 50  0001 C CNN
+F 4 "C306138" H 4800 3000 50  0001 C CNN "LCSC"
 	1    4800 3000
 	0    1    1    0   
 $EndComp

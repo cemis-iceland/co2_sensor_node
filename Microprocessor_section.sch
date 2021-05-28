@@ -36,6 +36,7 @@ F 0 "J15" H 2108 2581 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 2108 2490 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2000 2200 50  0001 C CNN
 F 3 "~" H 2000 2200 50  0001 C CNN
+F 4 "C124380" H 2000 2200 50  0001 C CNN "LCSC"
 	1    2000 2200
 	1    0    0    -1  
 $EndComp
@@ -152,6 +153,7 @@ F 0 "U5" H 6050 2650 50  0000 C CNN
 F 1 "ESP32-WROOM-32D" H 6950 2650 50  0000 C CNN
 F 2 "RF_Module:ESP32-WROOM-32" H 6500 2500 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 6200 4050 50  0001 C CNN
+F 4 "C473012" H 6500 4000 50  0001 C CNN "LCSC"
 	1    6500 4000
 	1    0    0    -1  
 $EndComp
@@ -426,6 +428,7 @@ F 0 "JP3" H 2100 3800 50  0000 C CNN
 F 1 "MTDO_JP" H 2100 3900 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2000 4100 50  0001 C CNN
 F 3 "~" H 2000 4100 50  0001 C CNN
+F 4 "C160332" H 2000 4100 50  0001 C CNN "LCSC"
 	1    2000 4100
 	1    0    0    1   
 $EndComp
@@ -454,6 +457,7 @@ F 0 "JP4" H 3908 4181 50  0000 C CNN
 F 1 "BOOT_JP" H 3908 4090 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3800 4000 50  0001 C CNN
 F 3 "~" H 3800 4000 50  0001 C CNN
+F 4 "C160332" H 3800 4000 50  0001 C CNN "LCSC"
 	1    3800 4000
 	1    0    0    -1  
 $EndComp
