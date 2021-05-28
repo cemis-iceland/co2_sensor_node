@@ -1,0 +1,1809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>P:\KiCAD\CO2\co2_sensor_node\co2_sensor_node.sch</source>
+    <date>28/05/2021 12:13:30</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>co2_sensor_node.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/CO2 Sensor Connector 1/" tstamps="/60A49A7C/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CO2_Sensor_Connector.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/CO2 Sensor Connector 2/" tstamps="/60A4AC4A/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CO2_Sensor_Connector.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Atmo sensor/" tstamps="/60A4FAC1/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Atmo_sensor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/SD Card/" tstamps="/60A7E012/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SD_card.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/LoRa Transceiver/" tstamps="/60A79781/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LoRa_Transceiver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/GNSS/" tstamps="/60A8B3C8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>GNSS.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Power/" tstamps="/60AD9954/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Microprocessor section/" tstamps="/60A2751B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Microprocessor_section.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AFB8C6</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AFC708</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AFC7FA</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AFC8FD</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x07_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C358721</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x07_Female" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/CO2 Sensor Connector 1/" tstamps="/60A49A7C/"/>
+      <tstamp>60A57B40</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C15127</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/CO2 Sensor Connector 1/" tstamps="/60A49A7C/"/>
+      <tstamp>60A6C14D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22962</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CO2 Sensor Connector 1/" tstamps="/60A49A7C/"/>
+      <tstamp>60A6FA21</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CO2 Sensor Connector 1/" tstamps="/60A49A7C/"/>
+      <tstamp>60A736D3</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>PWR_JP</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C306138</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/CO2 Sensor Connector 1/" tstamps="/60A49A7C/"/>
+      <tstamp>60A91C0B</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CO2 Sensor Connector 1/" tstamps="/60A49A7C/"/>
+      <tstamp>60AA508F</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/CO2 Sensor Connector 1/" tstamps="/60A49A7C/"/>
+      <tstamp>60ABE2B1</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C20917</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/CO2 Sensor Connector 1/" tstamps="/60A49A7C/"/>
+      <tstamp>60B57C20</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x07_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C358721</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x07_Female" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/CO2 Sensor Connector 2/" tstamps="/60A4AC4A/"/>
+      <tstamp>60A57B40</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C15127</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/CO2 Sensor Connector 2/" tstamps="/60A4AC4A/"/>
+      <tstamp>60A6C14D</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22962</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CO2 Sensor Connector 2/" tstamps="/60A4AC4A/"/>
+      <tstamp>60A6FA21</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CO2 Sensor Connector 2/" tstamps="/60A4AC4A/"/>
+      <tstamp>60A736D3</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>PWR_JP</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C306138</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/CO2 Sensor Connector 2/" tstamps="/60A4AC4A/"/>
+      <tstamp>60A91C0B</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CO2 Sensor Connector 2/" tstamps="/60A4AC4A/"/>
+      <tstamp>60AA508F</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/CO2 Sensor Connector 2/" tstamps="/60A4AC4A/"/>
+      <tstamp>60ABE2B1</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C20917</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/CO2 Sensor Connector 2/" tstamps="/60A4AC4A/"/>
+      <tstamp>60B57C20</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Atmo sensor/" tstamps="/60A4FAC1/"/>
+      <tstamp>60AAC14B</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>TF-15x15</value>
+      <footprint>co2_sensor_node:TF-15x15</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2009111836_SOFNG-TF-15x15_C111196.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C111196</field>
+      </fields>
+      <libsource lib="Connector" part="Micro_SD_Card_Det" description="Micro SD Card Socket with card detection pins"/>
+      <sheetpath names="/SD Card/" tstamps="/60A7E012/"/>
+      <tstamp>60B61966</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>RFM95W-868S2</value>
+      <footprint>RF_Module:HOPERF_RFM9XW_SMD</footprint>
+      <datasheet>https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf</datasheet>
+      <libsource lib="RF_Module" part="RFM95W-868S2" description="Low power long range transceiver module, SPI and parallel interface, 868 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16"/>
+      <sheetpath names="/LoRa Transceiver/" tstamps="/60A79781/"/>
+      <tstamp>60A66EAC</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x02_Male</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/LoRa Transceiver/" tstamps="/60A79781/"/>
+      <tstamp>60A6BDC1</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x02_Male</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/LoRa Transceiver/" tstamps="/60A79781/"/>
+      <tstamp>60A6C78E</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x02_Male</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/LoRa Transceiver/" tstamps="/60A79781/"/>
+      <tstamp>60A6C92B</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x02_Male</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/LoRa Transceiver/" tstamps="/60A79781/"/>
+      <tstamp>60A6CADE</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x02_Male</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/LoRa Transceiver/" tstamps="/60A79781/"/>
+      <tstamp>60A6CCA7</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x02_Male</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/LoRa Transceiver/" tstamps="/60A79781/"/>
+      <tstamp>60A6CE81</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/LoRa Transceiver/" tstamps="/60A79781/"/>
+      <tstamp>60A845BF</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/LoRa Transceiver/" tstamps="/60A79781/"/>
+      <tstamp>60A882A8</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>SMA Female</value>
+      <footprint>co2_sensor_node:TE_5-1814832-2_C482015</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="LCSC">C482015</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/LoRa Transceiver/" tstamps="/60A79781/"/>
+      <tstamp>60A7FEF3</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ublox_SAM-M8Q</value>
+      <footprint>RF_GPS:ublox_SAM-M8Q</footprint>
+      <datasheet>https://www.u-blox.com/sites/default/files/SAM-M8Q_DataSheet_%28UBX-16012619%29.pdf</datasheet>
+      <libsource lib="RF_GPS" part="ublox_SAM-M8Q" description="GPS ublox M8 variant"/>
+      <sheetpath names="/GNSS/" tstamps="/60A8B3C8/"/>
+      <tstamp>60A3F723</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/GNSS/" tstamps="/60A8B3C8/"/>
+      <tstamp>60A4A761</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/GNSS/" tstamps="/60A8B3C8/"/>
+      <tstamp>60A4A767</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60AE7CEC</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C15127</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60AEDB80</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>5V6</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C8062</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60B3AC80</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60B3B751</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60B3C468</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TPS62130</value>
+      <footprint>Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps62130.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C43590</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TPS62130" description="3A Step-Down Converter with DCS-Control, Adjustable Output Voltage, 3-17V Input Voltage, QFN-16"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60AE4642</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60B247FC</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>3n3</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1613</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60B5E517</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>180k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22827</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60B32241</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>562k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23205</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60B341E6</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>2u2</value>
+      <footprint>co2_sensor_node:WPN4020</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98361</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60B35170</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60B368E2</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60D98E74</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TPS62130</value>
+      <footprint>Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps62130.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C43590</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TPS62130" description="3A Step-Down Converter with DCS-Control, Adjustable Output Voltage, 3-17V Input Voltage, QFN-16"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60D98E7B</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60D98E81</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>3n3</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1613</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60D98E9E</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>180k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22827</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60D98EA5</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1M17</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22766</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60D98EAB</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>2u2</value>
+      <footprint>co2_sensor_node:WPN4020</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98361</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60D98EB1</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/60AD9954/"/>
+      <tstamp>60D98EB7</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>Conn_01x06_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C124380</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Microprocessor section/" tstamps="/60A2751B/"/>
+      <tstamp>60B18C71</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Microprocessor section/" tstamps="/60A2751B/"/>
+      <tstamp>60A615B3</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Microprocessor section/" tstamps="/60A2751B/"/>
+      <tstamp>60A591EA</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>ESP32-WROOM-32D</value>
+      <footprint>RF_Module:ESP32-WROOM-32</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C473012</field>
+      </fields>
+      <libsource lib="RF_Module" part="ESP32-WROOM-32D" description="RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"/>
+      <sheetpath names="/Microprocessor section/" tstamps="/60A2751B/"/>
+      <tstamp>60AF9B80</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Microprocessor section/" tstamps="/60A2751B/"/>
+      <tstamp>60A5A468</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Microprocessor section/" tstamps="/60A2751B/"/>
+      <tstamp>60A5A462</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Microprocessor section/" tstamps="/60A2751B/"/>
+      <tstamp>60A50D69</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Microprocessor section/" tstamps="/60A2751B/"/>
+      <tstamp>60A501AF</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Microprocessor section/" tstamps="/60A2751B/"/>
+      <tstamp>60A3C0F5</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Microprocessor section/" tstamps="/60A2751B/"/>
+      <tstamp>60A3B0AC</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>MTDO_JP</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C160332</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Microprocessor section/" tstamps="/60A2751B/"/>
+      <tstamp>60AA0F54</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>BOOT_JP</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C160332</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Microprocessor section/" tstamps="/60A2751B/"/>
+      <tstamp>60ABCC26</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Microprocessor section/" tstamps="/60A2751B/"/>
+      <tstamp>60AD1473</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>K2-1102SP-C4SC-04</value>
+      <footprint>co2_sensor_node:K2-1102SP-xxxC</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811082113_Korean-Hroparts-Elec-K2-1102SP-C4SC-04_C127509.pdf</datasheet>
+      <fields>
+        <field name="LCSC">https://lcsc.com/product-detail/Tactile-Switches_Korean-Hroparts-Elec-K2-1102SP-C4SC-04_C127509.html/?href=jlc-SMT</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/Microprocessor section/" tstamps="/60A2751B/"/>
+      <tstamp>60B19388</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Male">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x07_Female">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Micro_SD_Card_Det">
+      <aliases>
+        <alias>Micro_SD_Card_Det_Hirose_DM3AT</alias>
+      </aliases>
+      <description>Micro SD Card Socket with card detection pins</description>
+      <docs>https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&amp;item_id=195&amp;is_series=1</docs>
+      <footprints>
+        <fp>microSD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Micro_SD_Card_Det</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="BiDi"/>
+        <pin num="2" name="DAT3/CD" type="BiDi"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="BiDi"/>
+        <pin num="8" name="DAT1" type="BiDi"/>
+        <pin num="9" name="DET_B" type="passive"/>
+        <pin num="10" name="DET_A" type="passive"/>
+        <pin num="11" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="RF_GPS" part="ublox_SAM-M8Q">
+      <description>GPS ublox M8 variant</description>
+      <docs>https://www.u-blox.com/sites/default/files/SAM-M8Q_DataSheet_%28UBX-16012619%29.pdf</docs>
+      <footprints>
+        <fp>ublox*SAM?M8Q*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ublox_SAM-M8Q</field>
+        <field name="Footprint">RF_GPS:ublox_SAM-M8Q</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCC_IO" type="power_in"/>
+        <pin num="3" name="V_BCKP" type="power_in"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="TIMEPULSE" type="output"/>
+        <pin num="8" name="~SAFEBOOT" type="input"/>
+        <pin num="9" name="SDA" type="BiDi"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="SCL" type="input"/>
+        <pin num="13" name="TXD" type="output"/>
+        <pin num="14" name="RXD" type="input"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="GND" type="passive"/>
+        <pin num="17" name="VCC" type="power_in"/>
+        <pin num="18" name="~RESET" type="input"/>
+        <pin num="19" name="EXTINT" type="input"/>
+        <pin num="20" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Module" part="ESP32-WROOM-32">
+      <aliases>
+        <alias>ESP32-WROOM-32D</alias>
+      </aliases>
+      <description>RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</docs>
+      <footprints>
+        <fp>ESP32?WROOM?32*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32</field>
+        <field name="Footprint">RF_Module:ESP32-WROOM-32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="SENSOR_VP" type="input"/>
+        <pin num="5" name="SENSOR_VN" type="input"/>
+        <pin num="6" name="IO34" type="input"/>
+        <pin num="7" name="IO35" type="input"/>
+        <pin num="8" name="IO32" type="BiDi"/>
+        <pin num="9" name="IO33" type="BiDi"/>
+        <pin num="10" name="IO25" type="BiDi"/>
+        <pin num="11" name="IO26" type="BiDi"/>
+        <pin num="12" name="IO27" type="BiDi"/>
+        <pin num="13" name="IO14" type="BiDi"/>
+        <pin num="14" name="IO12" type="BiDi"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="IO13" type="BiDi"/>
+        <pin num="17" name="SHD/SD2" type="BiDi"/>
+        <pin num="18" name="SWP/SD3" type="BiDi"/>
+        <pin num="19" name="SCS/CMD" type="BiDi"/>
+        <pin num="20" name="SCK/CLK" type="BiDi"/>
+        <pin num="21" name="SDO/SD0" type="BiDi"/>
+        <pin num="22" name="SDI/SD1" type="BiDi"/>
+        <pin num="23" name="IO15" type="BiDi"/>
+        <pin num="24" name="IO2" type="BiDi"/>
+        <pin num="25" name="IO0" type="BiDi"/>
+        <pin num="26" name="IO4" type="BiDi"/>
+        <pin num="27" name="IO16" type="BiDi"/>
+        <pin num="28" name="IO17" type="BiDi"/>
+        <pin num="29" name="IO5" type="BiDi"/>
+        <pin num="30" name="IO18" type="BiDi"/>
+        <pin num="31" name="IO19" type="BiDi"/>
+        <pin num="32" name="NC" type="NotConnected"/>
+        <pin num="33" name="IO21" type="BiDi"/>
+        <pin num="34" name="RXD0/IO3" type="BiDi"/>
+        <pin num="35" name="TXD0/IO1" type="BiDi"/>
+        <pin num="36" name="IO22" type="BiDi"/>
+        <pin num="37" name="IO23" type="BiDi"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Module" part="RFM95W-868S2">
+      <aliases>
+        <alias>RFM95W-915S2</alias>
+        <alias>RFM96W-315S2</alias>
+        <alias>RFM96W-433S2</alias>
+        <alias>RFM97W-868S2</alias>
+        <alias>RFM97W-915S2</alias>
+        <alias>RFM98W-315S2</alias>
+        <alias>RFM98W-433S2</alias>
+        <alias>RFM69HCW</alias>
+      </aliases>
+      <description>Low power long range transceiver module, SPI and parallel interface, 868 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16</description>
+      <docs>https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf</docs>
+      <footprints>
+        <fp>HOPERF*RFM9XW*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RFM95W-868S2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="MISO" type="output"/>
+        <pin num="3" name="MOSI" type="input"/>
+        <pin num="4" name="SCK" type="input"/>
+        <pin num="5" name="NSS" type="input"/>
+        <pin num="6" name="RESET" type="BiDi"/>
+        <pin num="7" name="DIO5" type="BiDi"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="ANT" type="BiDi"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="DIO3" type="BiDi"/>
+        <pin num="12" name="DIO4" type="BiDi"/>
+        <pin num="13" name="3.3V" type="power_in"/>
+        <pin num="14" name="DIO0" type="BiDi"/>
+        <pin num="15" name="DIO1" type="BiDi"/>
+        <pin num="16" name="DIO2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TPS62130">
+      <aliases>
+        <alias>TPS62130A</alias>
+        <alias>TPS62131</alias>
+        <alias>TPS62132</alias>
+        <alias>TPS62133</alias>
+        <alias>TPS62150</alias>
+        <alias>TPS62150A</alias>
+        <alias>TPS62151</alias>
+        <alias>TPS62152</alias>
+        <alias>TPS62153</alias>
+        <alias>TPS62140</alias>
+        <alias>TPS62140A</alias>
+        <alias>TPS62141</alias>
+        <alias>TPS62142</alias>
+        <alias>TPS62143</alias>
+      </aliases>
+      <description>3A Step-Down Converter with DCS-Control, Adjustable Output Voltage, 3-17V Input Voltage, QFN-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps62130.pdf</docs>
+      <footprints>
+        <fp>VQFN*1EP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS62130</field>
+        <field name="Footprint">Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="output"/>
+        <pin num="2" name="SW" type="passive"/>
+        <pin num="3" name="SW" type="passive"/>
+        <pin num="4" name="PG" type="openCol"/>
+        <pin num="5" name="FB" type="input"/>
+        <pin num="6" name="AGND" type="power_in"/>
+        <pin num="7" name="FSW" type="input"/>
+        <pin num="8" name="DEF" type="input"/>
+        <pin num="9" name="SS/TR" type="input"/>
+        <pin num="10" name="AVIN" type="power_in"/>
+        <pin num="11" name="PVIN" type="power_in"/>
+        <pin num="12" name="PVIN" type="passive"/>
+        <pin num="13" name="EN" type="input"/>
+        <pin num="14" name="VOS" type="input"/>
+        <pin num="15" name="PGND" type="power_in"/>
+        <pin num="16" name="PGND" type="passive"/>
+        <pin num="17" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+        <alias>TSM2302CX</alias>
+        <alias>AO3400A</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="TP0610T">
+      <aliases>
+        <alias>VP0610T</alias>
+        <alias>BSS84</alias>
+        <alias>NTR2101P</alias>
+        <alias>BSS83P</alias>
+        <alias>Si2319CDS</alias>
+        <alias>IRLML6401</alias>
+        <alias>IRLML6402</alias>
+        <alias>DMG2301L</alias>
+        <alias>AO3401A</alias>
+        <alias>IRLML9301</alias>
+        <alias>IRLML5203</alias>
+        <alias>Si2371EDS</alias>
+        <alias>TSM2301ACX</alias>
+        <alias>FDN340P</alias>
+      </aliases>
+      <description>-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.vishay.com/docs/70209/70209.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TP0610T</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="RF_GPS">
+      <uri>C:\Program Files\KiCad\share\kicad\library/RF_GPS.lib</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>C:\Program Files\KiCad\share\kicad\library/RF_Module.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Switching.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/GNSS/ENABLE">
+      <node ref="U2" pin="19"/>
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="2" name="/LoRa Transceiver/MISO">
+      <node ref="U1" pin="2"/>
+      <node ref="U5" pin="31"/>
+      <node ref="J6" pin="7"/>
+    </net>
+    <net code="3" name="/LoRa Transceiver/IRQ2">
+      <node ref="J12" pin="2"/>
+      <node ref="J10" pin="2"/>
+      <node ref="J8" pin="2"/>
+      <node ref="U5" pin="33"/>
+    </net>
+    <net code="4" name="/LoRa Transceiver/IRQ1">
+      <node ref="U5" pin="29"/>
+      <node ref="J9" pin="2"/>
+      <node ref="J11" pin="2"/>
+      <node ref="J13" pin="2"/>
+    </net>
+    <net code="5" name="/Microprocessor section/I2C_SCL">
+      <node ref="R16" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="6" name="/LoRa Transceiver/CSN">
+      <node ref="R19" pin="2"/>
+      <node ref="U5" pin="26"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="7" name="/Microprocessor section/UART2_TX">
+      <node ref="J4" pin="2"/>
+      <node ref="U5" pin="9"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="8" name="/Microprocessor section/UART2_RX">
+      <node ref="U5" pin="10"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="9" name="/CO2 Sensor Connector 2/N_RDY">
+      <node ref="U5" pin="8"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="10" name="/CO2 Sensor Connector 2/ENABLE">
+      <node ref="U5" pin="23"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="11" name="/CO2 Sensor Connector 1/ENABLE">
+      <node ref="R1" pin="1"/>
+      <node ref="U5" pin="24"/>
+    </net>
+    <net code="12" name="/SD Card/CSN">
+      <node ref="J6" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="U5" pin="36"/>
+    </net>
+    <net code="13" name="/LoRa Transceiver/SCLK">
+      <node ref="U5" pin="30"/>
+      <node ref="J6" pin="5"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="14" name="/LoRa Transceiver/MOSI">
+      <node ref="U5" pin="37"/>
+      <node ref="J6" pin="3"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="15" name="/Microprocessor section/UART1_RX">
+      <node ref="J1" pin="3"/>
+      <node ref="U5" pin="13"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="16" name="/Microprocessor section/UART1_TX">
+      <node ref="U5" pin="16"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="18" name="/Microprocessor section/I2C_SDA">
+      <node ref="J5" pin="1"/>
+      <node ref="U5" pin="6"/>
+      <node ref="R18" pin="2"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="19" name="/CO2 Sensor Connector 1/N_RDY">
+      <node ref="J1" pin="5"/>
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="20" name="Net-(U5-Pad27)">
+      <node ref="U5" pin="27"/>
+    </net>
+    <net code="21" name="Net-(U5-Pad28)">
+      <node ref="U5" pin="28"/>
+    </net>
+    <net code="22" name="Net-(U5-Pad32)">
+      <node ref="U5" pin="32"/>
+    </net>
+    <net code="23" name="GND">
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="J5" pin="3"/>
+      <node ref="J3" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U4" pin="16"/>
+      <node ref="U3" pin="17"/>
+      <node ref="U3" pin="16"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U3" pin="15"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="J14" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U4" pin="15"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U2" pin="11"/>
+      <node ref="U2" pin="15"/>
+      <node ref="U2" pin="16"/>
+      <node ref="U2" pin="20"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="4"/>
+      <node ref="J6" pin="9"/>
+      <node ref="J6" pin="6"/>
+      <node ref="J6" pin="11"/>
+      <node ref="J6" pin="10"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U4" pin="17"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J4" pin="4"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="J15" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U5" pin="39"/>
+      <node ref="U5" pin="15"/>
+      <node ref="U5" pin="38"/>
+      <node ref="JP4" pin="2"/>
+    </net>
+    <net code="24" name="Net-(U5-Pad22)">
+      <node ref="U5" pin="22"/>
+    </net>
+    <net code="25" name="Net-(U5-Pad21)">
+      <node ref="U5" pin="21"/>
+    </net>
+    <net code="26" name="Net-(U5-Pad20)">
+      <node ref="U5" pin="20"/>
+    </net>
+    <net code="27" name="Net-(U5-Pad19)">
+      <node ref="U5" pin="19"/>
+    </net>
+    <net code="28" name="Net-(U5-Pad18)">
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="29" name="Net-(U5-Pad17)">
+      <node ref="U5" pin="17"/>
+    </net>
+    <net code="30" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="31" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="32" name="/Microprocessor section/EN">
+      <node ref="U5" pin="3"/>
+      <node ref="C19" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="J15" pin="5"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="33" name="+3V3">
+      <node ref="U2" pin="17"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="JP3" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="J6" pin="4"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="J5" pin="4"/>
+      <node ref="U1" pin="13"/>
+      <node ref="JP1" pin="3"/>
+      <node ref="J15" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="JP2" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U4" pin="14"/>
+      <node ref="U4" pin="7"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="34" name="/Microprocessor section/RXD0">
+      <node ref="U5" pin="34"/>
+      <node ref="J15" pin="3"/>
+    </net>
+    <net code="35" name="/Microprocessor section/TXD0">
+      <node ref="U5" pin="35"/>
+      <node ref="J15" pin="4"/>
+    </net>
+    <net code="36" name="/Microprocessor section/BOOT">
+      <node ref="U5" pin="25"/>
+      <node ref="J15" pin="6"/>
+      <node ref="JP4" pin="1"/>
+    </net>
+    <net code="37" name="/Microprocessor section/MTDI">
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="38" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="39" name="/CO2 Sensor Connector 1/VCC">
+      <node ref="J1" pin="7"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="40" name="Net-(Q1-Pad3)">
+      <node ref="Q2" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="41" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="42" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="43" name="+6V">
+      <node ref="JP1" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U3" pin="7"/>
+      <node ref="L1" pin="2"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="44" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="45" name="/CO2 Sensor Connector 2/VCC">
+      <node ref="J4" pin="3"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="J3" pin="7"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="46" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3"/>
+      <node ref="R6" pin="2"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="47" name="Net-(J3-Pad6)">
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="48" name="Net-(JP2-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="JP2" pin="2"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="49" name="Net-(J12-Pad1)">
+      <node ref="U1" pin="16"/>
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="50" name="Net-(J10-Pad1)">
+      <node ref="J10" pin="1"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="51" name="Net-(J8-Pad1)">
+      <node ref="J8" pin="1"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="52" name="Net-(J13-Pad1)">
+      <node ref="U1" pin="11"/>
+      <node ref="J13" pin="1"/>
+    </net>
+    <net code="53" name="Net-(J11-Pad1)">
+      <node ref="U1" pin="12"/>
+      <node ref="J11" pin="1"/>
+    </net>
+    <net code="54" name="Net-(J9-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="J9" pin="1"/>
+    </net>
+    <net code="55" name="Net-(J7-Pad1)">
+      <node ref="J7" pin="1"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="56" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="57" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="58" name="Net-(J6-Pad8)">
+      <node ref="J6" pin="8"/>
+    </net>
+    <net code="59" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="60" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="61" name="Net-(U2-Pad18)">
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="62" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="63" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="64" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="65" name="+BATT">
+      <node ref="C6" pin="1"/>
+      <node ref="U4" pin="10"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U4" pin="12"/>
+      <node ref="U4" pin="13"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U3" pin="12"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="66" name="Net-(C10-Pad1)">
+      <node ref="U4" pin="9"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="67" name="Net-(R12-Pad2)">
+      <node ref="U4" pin="5"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="68" name="Net-(L2-Pad1)">
+      <node ref="L2" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="69" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="70" name="Net-(L1-Pad1)">
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="71" name="Net-(R10-Pad2)">
+      <node ref="U3" pin="5"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="72" name="Net-(D1-Pad2)">
+      <node ref="R7" pin="1"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="73" name="Net-(J14-Pad2)">
+      <node ref="Q5" pin="3"/>
+      <node ref="J14" pin="2"/>
+    </net>
+    <net code="74" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+  </nets>
+</export>

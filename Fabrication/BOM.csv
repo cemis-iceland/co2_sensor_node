@@ -1,0 +1,30 @@
+Reference, Quantity, Value, Footprint, LCSC
+C1 C3 C20 ,3,1u,Capacitor_SMD:C_0603_1608Metric,C15849
+C9 C10 ,2,3n3,Capacitor_SMD:C_0603_1608Metric,C1613
+C11 C12 ,2,22u,Capacitor_SMD:C_0805_2012Metric,C45783
+C2 C4 C7 C8 C19 C21 ,6,100n,Capacitor_SMD:C_0603_1608Metric,C14663
+C5 C6 ,2,10u,Capacitor_SMD:C_0805_2012Metric,C15850
+D1 ,1,5V6,Diode_SMD:D_MiniMELF,C8062
+J1 J3 ,2,Conn_01x07_Female,Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical,C358721
+J14 ,1,Conn_01x02,Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical,
+J15 ,1,Conn_01x06_Male,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,C124380
+J2 J4 J5 ,3,Conn_01x04_Female,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical,
+J6 ,1,TF-15x15,co2_sensor_node:TF-15x15,C111196
+J7 ,1,SMA Female,co2_sensor_node:TE_5-1814832-2_C482015,C482015
+JP1 JP2 ,2,PWR_JP,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,C306138
+JP3 ,1,MTDO_JP,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,C160332
+JP4 ,1,BOOT_JP,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,C160332
+L1 L2 ,2,2u2,co2_sensor_node:WPN4020,C98361
+Q1 Q3 ,2,AO3400A,Package_TO_SOT_SMD:SOT-23,C20917
+Q2 Q4 Q5 ,3,AO3401A,Package_TO_SOT_SMD:SOT-23,C15127
+R1 R4 ,2,220,Resistor_SMD:R_0603_1608Metric,C22962
+R10 ,1,1M17,Resistor_SMD:R_0603_1608Metric,C22766
+R12 ,1,562k,Resistor_SMD:R_0603_1608Metric,C23205
+R11 R13 ,2,180k,Resistor_SMD:R_0603_1608Metric,C22827
+R16 R18 ,2,4k7,Resistor_SMD:R_0603_1608Metric,C23162
+R2 R3 R5 R6 R7 R14 R15 R17 R19 ,9,10k,Resistor_SMD:R_0603_1608Metric,C25804
+SW1 ,1,K2-1102SP-C4SC-04,co2_sensor_node:K2-1102SP-xxxC,C127509
+U1 ,1,RFM95W-868S2,RF_Module:HOPERF_RFM9XW_SMD,
+U2 ,1,ublox_SAM-M8Q,RF_GPS:ublox_SAM-M8Q,
+U3 U4 ,2,TPS62130,Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias,C43590
+U5 ,1,ESP32-WROOM-32D,RF_Module:ESP32-WROOM-32,C473012
