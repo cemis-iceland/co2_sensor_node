@@ -1,0 +1,176 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4750 4250 0    50   Input ~ 0
+PUMP_EN
+$Comp
+L Transistor_FET:AO3400A Q?
+U 1 1 60BE5370
+P 5950 4250
+F 0 "Q?" H 6155 4296 50  0000 L CNN
+F 1 "AO3400A" H 6155 4205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6150 4175 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf" H 5950 4250 50  0001 L CNN
+	1    5950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60BEC7F4
+P 5250 4250
+F 0 "R?" V 5043 4250 50  0000 C CNN
+F 1 "220R" V 5134 4250 50  0000 C CNN
+F 2 "" V 5180 4250 50  0001 C CNN
+F 3 "~" H 5250 4250 50  0001 C CNN
+	1    5250 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 4250 5100 4250
+Wire Wire Line
+	5400 4250 5550 4250
+$Comp
+L Device:R R?
+U 1 1 60BEDCBD
+P 5550 4550
+F 0 "R?" H 5620 4596 50  0000 L CNN
+F 1 "10K" H 5620 4505 50  0000 L CNN
+F 2 "" V 5480 4550 50  0001 C CNN
+F 3 "~" H 5550 4550 50  0001 C CNN
+	1    5550 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4400 5550 4250
+Connection ~ 5550 4250
+Wire Wire Line
+	5550 4250 5750 4250
+$Comp
+L power:GND #PWR?
+U 1 1 60BEE60C
+P 5550 4850
+F 0 "#PWR?" H 5550 4600 50  0001 C CNN
+F 1 "GND" H 5555 4677 50  0000 C CNN
+F 2 "" H 5550 4850 50  0001 C CNN
+F 3 "" H 5550 4850 50  0001 C CNN
+	1    5550 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4850 5550 4700
+$Comp
+L power:GND #PWR?
+U 1 1 60BEEC8C
+P 6050 4850
+F 0 "#PWR?" H 6050 4600 50  0001 C CNN
+F 1 "GND" H 6055 4677 50  0000 C CNN
+F 2 "" H 6050 4850 50  0001 C CNN
+F 3 "" H 6050 4850 50  0001 C CNN
+	1    6050 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 4850 6050 4450
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 60BF29BF
+P 6450 3650
+F 0 "J?" H 6478 3626 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 6478 3535 50  0000 L CNN
+F 2 "" H 6450 3650 50  0001 C CNN
+F 3 "~" H 6450 3650 50  0001 C CNN
+	1    6450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60BF35EE
+P 6050 2750
+F 0 "J?" V 6112 2894 50  0000 L CNN
+F 1 "Conn_01x03_Male" V 6203 2894 50  0000 L CNN
+F 2 "" H 6050 2750 50  0001 C CNN
+F 3 "~" H 6050 2750 50  0001 C CNN
+	1    6050 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 4050 6050 3900
+Wire Wire Line
+	6050 3750 6250 3750
+Wire Wire Line
+	6250 3650 6050 3650
+Wire Wire Line
+	6050 3650 6050 3500
+$Comp
+L Device:D_Schottky D?
+U 1 1 60BF7F76
+P 5700 3700
+F 0 "D?" V 5654 3780 50  0000 L CNN
+F 1 "SS34" V 5745 3780 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 5700 3700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1903051003_MDD-Jiangsu-Yutai-Elec-SS34_C8678.pdf" H 5700 3700 50  0001 C CNN
+F 4 "C8678" V 5700 3700 50  0001 C CNN "LCSC"
+	1    5700 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 3550 5700 3500
+Connection ~ 6050 3500
+Wire Wire Line
+	6050 3500 6050 2950
+Wire Wire Line
+	5700 3850 5700 3900
+Connection ~ 6050 3900
+Wire Wire Line
+	6050 3900 6050 3750
+$Comp
+L power:+BATT #PWR?
+U 1 1 60BFA590
+P 5750 2650
+F 0 "#PWR?" H 5750 2500 50  0001 C CNN
+F 1 "+BATT" H 5765 2823 50  0000 C CNN
+F 2 "" H 5750 2650 50  0001 C CNN
+F 3 "" H 5750 2650 50  0001 C CNN
+	1    5750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+6V #PWR?
+U 1 1 60BFA941
+P 6350 2650
+F 0 "#PWR?" H 6350 2500 50  0001 C CNN
+F 1 "+6V" H 6365 2823 50  0000 C CNN
+F 2 "" H 6350 2650 50  0001 C CNN
+F 3 "" H 6350 2650 50  0001 C CNN
+	1    6350 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2950 6150 3050
+Wire Wire Line
+	6150 3050 6350 3050
+Wire Wire Line
+	6350 3050 6350 2650
+Wire Wire Line
+	5750 2650 5750 3050
+Wire Wire Line
+	5750 3050 5950 3050
+Wire Wire Line
+	5950 3050 5950 2950
+Wire Wire Line
+	5700 3900 6050 3900
+Wire Wire Line
+	5700 3500 6050 3500
+$EndSCHEMATC

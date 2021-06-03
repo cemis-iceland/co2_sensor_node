@@ -88,8 +88,6 @@ Wire Wire Line
 	5000 4000 5000 4300
 Wire Wire Line
 	4900 3900 5200 3900
-Text HLabel 5000 3100 0    50   Input ~ 0
-ENABLE
 Wire Wire Line
 	5200 4300 5000 4300
 Connection ~ 5000 4300
