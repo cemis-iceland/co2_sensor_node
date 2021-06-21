@@ -74,7 +74,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 4900 3825 50  0001 L CIN
 F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 4700 3900 50  0001 L CNN
 F 4 "C15127" H 4700 3900 50  0001 C CNN "LCSC"
 	1    4700 3900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R1
