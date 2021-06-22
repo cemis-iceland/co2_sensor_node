@@ -17,7 +17,7 @@ Text HLabel 6100 4000 2    50   BiDi ~ 0
 SDA
 Text HLabel 6100 3900 2    50   BiDi ~ 0
 SCL
-Text Notes 5000 4200 0    50   ~ 0
+Text Notes 5000 4600 0    50   ~ 0
 I2C Addr: 1110110\non GYBMEP board
 $Comp
 L Connector:Conn_01x04_Female J5

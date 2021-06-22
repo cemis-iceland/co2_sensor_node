@@ -174,7 +174,7 @@ F 3 "" H 6500 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 4200 7600 4200
+	7100 5000 7600 5000
 Wire Wire Line
 	7100 3300 7600 3300
 Wire Wire Line
@@ -197,7 +197,7 @@ Text HLabel 7600 4400 2    50   Output ~ 0
 SPI_MOSI
 Text HLabel 7600 4000 2    50   Output ~ 0
 SPI_SCLK
-Text HLabel 7600 4200 2    50   Input ~ 0
+Text HLabel 7600 5000 2    50   Input ~ 0
 LORA_IRQ2
 Text HLabel 7600 3300 2    50   Input ~ 0
 LORA_IRQ1
@@ -555,4 +555,8 @@ F 3 "" H 8700 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8700 2800 8700 2700
+Text HLabel 7600 4200 2    50   Input ~ 0
+TEMPSENSOR
+Wire Wire Line
+	7100 4200 7600 4200
 $EndSCHEMATC

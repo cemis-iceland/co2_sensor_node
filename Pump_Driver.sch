@@ -83,17 +83,6 @@ F 3 "" H 6050 4850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6050 4850 6050 4450
-$Comp
-L Connector:Conn_01x02_Female J18
-U 1 1 60BF29BF
-P 6450 3650
-F 0 "J18" H 6478 3626 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 6478 3535 50  0000 L CNN
-F 2 "" H 6450 3650 50  0001 C CNN
-F 3 "~" H 6450 3650 50  0001 C CNN
-	1    6450 3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6050 4050 6050 3900
 Wire Wire Line
@@ -139,4 +128,15 @@ Wire Wire Line
 Wire Wire Line
 	5700 3500 6050 3500
 Connection ~ 6050 3500
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 60D4F94A
+P 6450 3650
+F 0 "J?" H 6530 3642 50  0000 L CNN
+F 1 "Conn_01x02" H 6530 3551 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 6450 3650 50  0001 C CNN
+F 3 "~" H 6450 3650 50  0001 C CNN
+	1    6450 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

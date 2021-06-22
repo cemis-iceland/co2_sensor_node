@@ -13,55 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 6000 3900 2    50   Input ~ 0
-UART_RX
-Text HLabel 6000 3800 2    50   Output ~ 0
-UART_TX
 Text HLabel 3300 4200 0    50   Input ~ 0
 ENABLE
-Text HLabel 6000 4000 2    50   Output ~ 0
-N_RDY
-$Comp
-L Connector:Conn_01x07_Female J1
-U 1 1 60A57B40
-P 5800 3900
-AR Path="/60A49A7C/60A57B40" Ref="J1"  Part="1" 
-AR Path="/60A4AC4A/60A57B40" Ref="J3"  Part="1" 
-F 0 "J1" H 5692 4385 50  0000 C CNN
-F 1 "Conn_01x07_Female" H 5692 4294 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 5800 3900 50  0001 C CNN
-F 3 "~" H 5800 3900 50  0001 C CNN
-F 4 "C358721" H 5800 3900 50  0001 C CNN "LCSC"
-	1    5800 3900
-	-1   0    0    -1  
-$EndComp
 Text Notes 7200 4350 0    50   ~ 0
 Connector for K30
-Text Notes 5600 4350 0    50   ~ 0
-Connector for SCD30
-Wire Wire Line
-	6400 3600 6000 3600
-$Comp
-L power:GND #PWR04
-U 1 1 60A5D6A7
-P 6500 4300
-AR Path="/60A49A7C/60A5D6A7" Ref="#PWR04"  Part="1" 
-AR Path="/60A4AC4A/60A5D6A7" Ref="#PWR09"  Part="1" 
-F 0 "#PWR04" H 6500 4050 50  0001 C CNN
-F 1 "GND" H 6505 4127 50  0000 C CNN
-F 2 "" H 6500 4300 50  0001 C CNN
-F 3 "" H 6500 4300 50  0001 C CNN
-	1    6500 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6500 4300 6500 3700
-Wire Wire Line
-	6000 3700 6500 3700
-Wire Wire Line
-	6000 4200 6400 4200
-Wire Wire Line
-	6400 4200 6400 3600
 $Comp
 L Transistor_FET:AO3401A Q2
 U 1 1 60A6C14D
@@ -185,24 +140,6 @@ F 3 "" H 7750 4000 50  0001 C CNN
 	1    7750 4000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x04_Female J2
-U 1 1 60ABE2B1
-P 7400 3700
-AR Path="/60A49A7C/60ABE2B1" Ref="J2"  Part="1" 
-AR Path="/60A4AC4A/60ABE2B1" Ref="J4"  Part="1" 
-F 0 "J2" H 7292 3985 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 7292 3894 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 7400 3700 50  0001 C CNN
-F 3 "~" H 7400 3700 50  0001 C CNN
-	1    7400 3700
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6400 3600 6700 3600
-Connection ~ 6400 3600
-Text Label 6700 3600 2    50   ~ 0
-VCC
 Text Label 7900 3800 2    50   ~ 0
 VCC
 Wire Wire Line
@@ -240,6 +177,18 @@ Wire Wire Line
 	4300 4700 4300 4800
 Wire Wire Line
 	3800 4200 4000 4200
-NoConn ~ 6000 4100
 Connection ~ 4800 3400
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 60D51FD2
+P 7400 3700
+AR Path="/60A49A7C/60D51FD2" Ref="J?"  Part="1" 
+AR Path="/60A4AC4A/60D51FD2" Ref="J?"  Part="1" 
+F 0 "J?" H 7318 4017 50  0000 C CNN
+F 1 "Conn_01x04" H 7318 3926 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 7400 3700 50  0001 C CNN
+F 3 "~" H 7400 3700 50  0001 C CNN
+	1    7400 3700
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
