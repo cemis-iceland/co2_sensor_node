@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 8 10
 Title ""
 Date ""
 Rev ""
@@ -176,7 +176,7 @@ $EndComp
 Wire Wire Line
 	7100 5000 7600 5000
 Wire Wire Line
-	7100 3300 7600 3300
+	7100 5100 7600 5100
 Wire Wire Line
 	7100 4100 7600 4100
 Wire Wire Line
@@ -199,7 +199,7 @@ Text HLabel 7600 4000 2    50   Output ~ 0
 SPI_SCLK
 Text HLabel 7600 5000 2    50   Input ~ 0
 LORA_IRQ2
-Text HLabel 7600 3300 2    50   Input ~ 0
+Text HLabel 7600 5100 2    50   Input ~ 0
 LORA_IRQ1
 Text HLabel 7600 4800 2    50   Input ~ 0
 SENS2_nRDY
@@ -436,7 +436,7 @@ F 0 "SW1" V 5246 3150 50  0000 L CNN
 F 1 "K2-1102SP-C4SC-04" V 5118 3150 50  0000 L CNN
 F 2 "co2_sensor_node:K2-1102SP-xxxC" H 5200 3250 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1811082113_Korean-Hroparts-Elec-K2-1102SP-C4SC-04_C127509.pdf" H 5200 3250 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Tactile-Switches_Korean-Hroparts-Elec-K2-1102SP-C4SC-04_C127509.html/?href=jlc-SMT" V 5200 3050 50  0001 C CNN "LCSC"
+F 4 "C127509" V 5200 3050 50  0001 C CNN "LCSC"
 	1    5200 3050
 	0    -1   -1   0   
 $EndComp
@@ -559,4 +559,8 @@ Text HLabel 7600 4200 2    50   Input ~ 0
 TEMPSENSOR
 Wire Wire Line
 	7100 4200 7600 4200
+Text HLabel 7600 3300 2    50   Output ~ 0
+FAN
+Wire Wire Line
+	7100 3300 7600 3300
 $EndSCHEMATC

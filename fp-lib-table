@@ -1,5 +1,5 @@
 (fp_lib_table
-  (lib (name co2_sensor_node)(type KiCad)(uri ${CO2_SENSOR_NODE_LIB}/co2_sensor_node.pretty)(options "")(descr "")(disabled))
+  (lib (name co2_sensor_node)(type KiCad)(uri ${CO2_SENSOR_NODE_LIB}/co2_sensor_node.pretty)(options "")(descr ""))
   (lib (name co2_sensor_node2)(type KiCad)(uri P:/KiCAD/CO2/co2_sensor_node/co2_sensor_node.pretty)(options "")(descr "")(disabled))
-  (lib (name co2_sensor_node_rel)(type KiCad)(uri co2_sensor_node.pretty)(options "")(descr ""))
+  (lib (name co2_sensor_node_rel)(type KiCad)(uri co2_sensor_node.pretty)(options "")(descr "")(disabled))
 )

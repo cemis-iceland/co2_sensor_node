@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -175,7 +175,8 @@ F16 "SENS2_nRDY" I L 4900 3900 50
 F17 "LORA_IRQ1" I R 6100 3700 50 
 F18 "LORA_IRQ2" I R 6100 3800 50 
 F19 "PUMP_EN" O L 4900 4350 50 
-F20 "TEMPSENSOR" I R 6100 4350 50 
+F20 "TEMPSENSOR" I R 6100 4250 50 
+F21 "FAN" I R 6100 4400 50 
 $EndSheet
 Wire Wire Line
 	3600 3700 4900 3700
@@ -276,8 +277,6 @@ $EndComp
 Wire Wire Line
 	3700 6150 3800 6150
 Wire Wire Line
-	3800 6150 3800 6250
-Wire Wire Line
 	3700 5750 3900 5750
 Wire Wire Line
 	3900 5750 3900 5650
@@ -327,48 +326,56 @@ Wire Wire Line
 	6500 5200 6600 5200
 Wire Wire Line
 	6500 5400 6600 5400
+Text Notes 6900 5550 0    50   ~ 0
+Temp header for use with DS18B20 sensor\n
 Wire Wire Line
-	6100 4350 6250 4350
+	6350 4250 6350 5300
 Wire Wire Line
-	6250 4350 6250 5300
+	6100 4250 6350 4250
 Wire Wire Line
-	6250 5300 6600 5300
+	6350 5300 6600 5300
+$Sheet
+S 6350 5950 500  200 
+U 60D4D720
+F0 "Fan" 50
+F1 "Fan.sch" 50
+F2 "FAN" I L 6350 6050 50 
+$EndSheet
+Wire Wire Line
+	6350 6050 6200 6050
+Wire Wire Line
+	6200 6050 6200 4400
+Wire Wire Line
+	6200 4400 6100 4400
 $Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 60D49B52
+L Connector_Generic:Conn_01x05 J?
+U 1 1 60D57F3B
+P 3500 5950
+AR Path="/60A49A7C/60D57F3B" Ref="J?"  Part="1" 
+AR Path="/60A4AC4A/60D57F3B" Ref="J?"  Part="1" 
+AR Path="/60D57F3B" Ref="J1"  Part="1" 
+F 0 "J1" H 3418 6367 50  0000 C CNN
+F 1 "Conn_01x05" H 3418 6276 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical" H 3500 5950 50  0001 C CNN
+F 3 "~" H 3500 5950 50  0001 C CNN
+	1    3500 5950
+	-1   0    0    -1  
+$EndComp
+Text Notes 2950 6350 0    50   ~ 0
+Header for\nexternal chamber
+Wire Wire Line
+	3800 6150 3800 6350
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 60D61D13
 P 6800 5300
-F 0 "J?" H 6880 5292 50  0000 L CNN
-F 1 "Conn_01x04" H 6880 5201 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 6800 5300 50  0001 C CNN
+F 0 "J2" H 6880 5342 50  0000 L CNN
+F 1 "Conn_01x03" H 6880 5251 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical" H 6800 5300 50  0001 C CNN
 F 3 "~" H 6800 5300 50  0001 C CNN
 	1    6800 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 5600 6500 5500
-Wire Wire Line
-	6500 5500 6600 5500
-Wire Wire Line
-	6500 5400 6500 5500
-Connection ~ 6500 5500
-Text Notes 6900 5550 0    50   ~ 0
-Temp header for use with DS18B20 sensor\n
-Text Notes 2900 6450 0    50   ~ 0
-Header for\nexternal chamber
-$Comp
-L Connector_Generic:Conn_01x06 J?
-U 1 1 60D59C46
-P 3500 5950
-F 0 "J?" H 3418 6367 50  0000 C CNN
-F 1 "Conn_01x06" H 3418 6276 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal" H 3500 5950 50  0001 C CNN
-F 3 "~" H 3500 5950 50  0001 C CNN
-	1    3500 5950
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 6250 3800 6250
-Wire Wire Line
-	3800 6250 3800 6350
-Connection ~ 3800 6250
+	6500 5400 6500 5600
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -31,13 +31,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J16
 U 1 1 60E02497
-P 3400 5150
-F 0 "J16" H 3318 4825 50  0000 C CNN
-F 1 "Conn_01x02" H 3318 4916 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 3400 5150 50  0001 C CNN
-F 3 "~" H 3400 5150 50  0001 C CNN
-	1    3400 5150
-	-1   0    0    1   
+P 3400 5050
+F 0 "J16" H 3400 5300 50  0000 C CNN
+F 1 "Conn_01x02" H 3350 5200 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3400 5050 50  0001 C CNN
+F 3 "~" H 3400 5050 50  0001 C CNN
+	1    3400 5050
+	-1   0    0    -1  
 $EndComp
 Connection ~ 4500 5050
 Wire Wire Line
@@ -319,8 +319,9 @@ U 1 1 60D11045
 P 4800 5050
 F 0 "L1" V 4990 5050 50  0000 C CNN
 F 1 "10u" V 4899 5050 50  0000 C CNN
-F 2 "" H 4800 5050 50  0001 C CNN
+F 2 "co2_sensor_node:MWSA0503S" H 4800 5050 50  0001 C CNN
 F 3 "~" H 4800 5050 50  0001 C CNN
+F 4 "C408412" H 4800 5050 50  0001 C CNN "LCSC"
 	1    4800 5050
 	0    -1   -1   0   
 $EndComp
@@ -651,13 +652,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J14
 U 1 1 60B3C468
-P 3550 1450
-F 0 "J14" H 3468 1125 50  0000 C CNN
-F 1 "Conn_01x02" H 3468 1216 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 3550 1450 50  0001 C CNN
-F 3 "~" H 3550 1450 50  0001 C CNN
-	1    3550 1450
-	-1   0    0    1   
+P 3550 1350
+F 0 "J14" H 3550 1500 50  0000 C CNN
+F 1 "Conn_01x02" H 3550 1450 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3550 1350 50  0001 C CNN
+F 3 "~" H 3550 1350 50  0001 C CNN
+	1    3550 1350
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3600 5050 4050 5050
