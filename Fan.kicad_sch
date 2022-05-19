@@ -552,7 +552,7 @@
     (property "Value" "Conn_01x02" (id 1) (at 177.292 81.2546 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" (id 2) (at 175.26 78.74 0)
+    (property "Footprint" "co2_sensor_node:KF301-5.0-2P" (id 2) (at 175.26 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 175.26 78.74 0)
