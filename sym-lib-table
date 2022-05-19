@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name co2_sensor_node)(type Legacy)(uri ${KIPRJMOD}/co2_sensor_node.lib)(options "")(descr ""))
+  (lib (name "co2_sensor_node_old")(type "Legacy")(uri "${KIPRJMOD}/co2_sensor_node.lib")(options "")(descr "")(disabled))
+  (lib (name "co2_sensor_node")(type "KiCad")(uri "${KIPRJMOD}/co2_sensor_node.kicad_sym")(options "")(descr ""))
 )
