@@ -9446,8 +9446,8 @@
   (gr_arc (start 151 129.75) (mid 150.414214 131.164214) (end 149 131.75) (layer "Edge.Cuts") (width 0.05) (tstamp e7b876b4-f88d-492c-83a2-e980c1fb5372))
   (gr_arc (start 131 77.5) (mid 131.585786 76.085786) (end 133 75.5) (layer "Edge.Cuts") (width 0.05) (tstamp e89e82d9-3190-45d0-acaf-8bad4ebcd64d))
   (gr_line (start 149 131.75) (end 133 131.75) (layer "Edge.Cuts") (width 0.05) (tstamp ec78bc73-1173-4954-ba9c-d899e5f32cff))
-  (gr_text "HOLE" (at 140.9 104.2 90) (layer "Edge.Cuts") (tstamp 0ce1e4d4-6934-4c05-b4ea-a4c05dda60ed)
-    (effects (font (size 5 5) (thickness 0.8)))
+  (gr_text "HOLE" (at 141 103.75 90) (layer "Edge.Cuts") (tstamp 0ce1e4d4-6934-4c05-b4ea-a4c05dda60ed)
+    (effects (font (size 10 10) (thickness 1)))
   )
 
   (segment (start 115.75 121) (end 114.525 121) (width 0.25) (layer "F.Cu") (net 1) (tstamp 0335fa79-6c32-4d23-bb8e-73e159b35395))
