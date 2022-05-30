@@ -1358,7 +1358,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 167.64 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 98523834-76b6-42e0-866d-e4549b3c87a8)
-    (property "Reference" "TP12" (id 0) (at 169.037 111.4333 0)
+    (property "Reference" "TP13" (id 0) (at 169.037 111.4333 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TEMP_SENSOR" (id 1) (at 169.037 113.9702 0)
@@ -1392,7 +1392,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 167.64 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a2566f92-d557-4d20-9a9b-690113e3c66e)
-    (property "Reference" "TP13" (id 0) (at 169.037 89.8433 0)
+    (property "Reference" "TP12" (id 0) (at 169.037 89.8433 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MOISTURE_SENSOR" (id 1) (at 169.037 92.3802 0)
@@ -1948,26 +1948,29 @@
     (path "/00000000-0000-0000-0000-000060d4d720/00000000-0000-0000-0000-000060d47c84"
       (reference "#PWR039") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060d4d720/00000000-0000-0000-0000-000060d47c8b"
-      (reference "#PWR040") (unit 1) (value "GND") (footprint "")
+    (path "/00000000-0000-0000-0000-000060d4d720/a2b76130-4b73-41d2-b95d-ad9995d504d5"
+      (reference "#PWR040") (unit 1) (value "+BATT") (footprint "")
     )
-    (path "/1e0f6ce1-838d-48f3-88cf-c2592ace5fc7/78d904c8-e560-4928-a784-d6fb19cbf40d"
+    (path "/00000000-0000-0000-0000-000060d4d720/00000000-0000-0000-0000-000060d47c8b"
       (reference "#PWR041") (unit 1) (value "GND") (footprint "")
     )
-    (path "/1e0f6ce1-838d-48f3-88cf-c2592ace5fc7/cbc2d777-8f3b-4a67-809c-e3f7baeb774b"
+    (path "/1e0f6ce1-838d-48f3-88cf-c2592ace5fc7/78d904c8-e560-4928-a784-d6fb19cbf40d"
       (reference "#PWR042") (unit 1) (value "GND") (footprint "")
     )
-    (path "/1e0f6ce1-838d-48f3-88cf-c2592ace5fc7/5cc37d78-3060-40cb-84bf-6df8015e864f"
+    (path "/1e0f6ce1-838d-48f3-88cf-c2592ace5fc7/cbc2d777-8f3b-4a67-809c-e3f7baeb774b"
       (reference "#PWR043") (unit 1) (value "GND") (footprint "")
     )
-    (path "/1e0f6ce1-838d-48f3-88cf-c2592ace5fc7/b321f6d2-0341-4b1f-bee3-66cbe5374b62"
+    (path "/1e0f6ce1-838d-48f3-88cf-c2592ace5fc7/5cc37d78-3060-40cb-84bf-6df8015e864f"
       (reference "#PWR044") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060a7e012/00000000-0000-0000-0000-000060a80f45"
+    (path "/1e0f6ce1-838d-48f3-88cf-c2592ace5fc7/b321f6d2-0341-4b1f-bee3-66cbe5374b62"
       (reference "#PWR045") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060a7e012/00000000-0000-0000-0000-000060a81a13"
+    (path "/00000000-0000-0000-0000-000060a7e012/00000000-0000-0000-0000-000060a80f45"
       (reference "#PWR046") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a7e012/00000000-0000-0000-0000-000060a81a13"
+      (reference "#PWR047") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060ad9954/00000000-0000-0000-0000-000060ae7cec"
       (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -2062,11 +2065,14 @@
     (path "/00000000-0000-0000-0000-000060a2751b/00000000-0000-0000-0000-000060b18c71"
       (reference "J11") (unit 1) (value "Conn_01x06_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
+    (path "/00000000-0000-0000-0000-000060d4d720/c5cd9f25-2ef9-4c26-8753-6b25093fa9df"
+      (reference "J12") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
     (path "/00000000-0000-0000-0000-000060d4d720/00000000-0000-0000-0000-000060d47cab"
-      (reference "J12") (unit 1) (value "Conn_01x02") (footprint "co2_sensor_node:KF301-5.0-2P")
+      (reference "J13") (unit 1) (value "Conn_01x02") (footprint "co2_sensor_node:KF301-5.0-2P")
     )
     (path "/00000000-0000-0000-0000-000060a7e012/00000000-0000-0000-0000-000060b61966"
-      (reference "J13") (unit 1) (value "TF-15x15") (footprint "co2_sensor_node:TF-15x15")
+      (reference "J14") (unit 1) (value "TF-15x15") (footprint "co2_sensor_node:TF-15x15")
     )
     (path "/00000000-0000-0000-0000-000060a2751b/00000000-0000-0000-0000-000060aa0f54"
       (reference "JP1") (unit 1) (value "MTDO_JP") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -2173,11 +2179,11 @@
     (path "/7464857e-cdc7-4654-9cf2-3584cebc614e"
       (reference "TP11") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
     )
-    (path "/98523834-76b6-42e0-866d-e4549b3c87a8"
-      (reference "TP12") (unit 1) (value "TEMP_SENSOR") (footprint "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
-    )
     (path "/a2566f92-d557-4d20-9a9b-690113e3c66e"
-      (reference "TP13") (unit 1) (value "MOISTURE_SENSOR") (footprint "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
+      (reference "TP12") (unit 1) (value "MOISTURE_SENSOR") (footprint "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
+    )
+    (path "/98523834-76b6-42e0-866d-e4549b3c87a8"
+      (reference "TP13") (unit 1) (value "TEMP_SENSOR") (footprint "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
     )
     (path "/00000000-0000-0000-0000-000060ad9954/79553867-a79a-4b49-9db3-cf84d0d86e7b"
       (reference "TP14") (unit 1) (value "CELL_1") (footprint "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
