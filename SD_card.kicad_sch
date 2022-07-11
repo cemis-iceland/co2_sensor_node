@@ -6,8 +6,8 @@
 
   (title_block
     (title "CO2 Chamber - SD Card")
-    (date "2022-05-20")
-    (rev "1")
+    (date "2022-06-21")
+    (rev "2")
   )
 
   (lib_symbols

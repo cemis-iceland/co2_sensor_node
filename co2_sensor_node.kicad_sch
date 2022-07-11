@@ -6,8 +6,8 @@
 
   (title_block
     (title "CO2 Chamber - Top")
-    (date "2022-05-20")
-    (rev "1")
+    (date "2022-06-21")
+    (rev "2")
   )
 
   (lib_symbols
@@ -1972,6 +1972,9 @@
     (path "/00000000-0000-0000-0000-000060a7e012/00000000-0000-0000-0000-000060a81a13"
       (reference "#PWR047") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000060ad9954/2cf00c9f-03c4-46c2-88d3-b270693612ba"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000060ad9954/00000000-0000-0000-0000-000060ae7cec"
       (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
@@ -2143,6 +2146,15 @@
     (path "/00000000-0000-0000-0000-000060a7e012/d4dfd60b-cb73-4168-87fc-7a932d946210"
       (reference "R16") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-000060ad9954/208ff9cb-a710-40ac-9e1a-7835d3f705ab"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060ad9954/4fce2b2f-88f5-4549-af8c-d7ee8b53faa0"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060ad9954/aea7968a-d3bf-4a7c-874d-62e5112cb6f8"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000060a2751b/00000000-0000-0000-0000-000060b19388"
       (reference "SW1") (unit 1) (value "K2-1102SP-C4SC-04") (footprint "co2_sensor_node:K2-1102SP-xxxC")
     )
@@ -2223,6 +2235,9 @@
     )
     (path "/1e0f6ce1-838d-48f3-88cf-c2592ace5fc7/323910a2-adca-4d4d-a61b-2bf8d7bdadcc"
       (reference "U3") (unit 1) (value "TC1508S") (footprint "Package_SO:SOP-16_3.9x9.9mm_P1.27mm")
+    )
+    (path "/00000000-0000-0000-0000-000060ad9954/5063d898-f753-4d18-a404-dbc14c8f7610"
+      (reference "U?") (unit 1) (value "BQ24074RGT") (footprint "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm")
     )
   )
 )
