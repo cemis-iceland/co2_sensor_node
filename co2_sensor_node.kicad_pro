@@ -395,7 +395,7 @@
       "idf": "",
       "netlist": "co2_sensor_node.net",
       "specctra_dsn": "",
-      "step": "co2_sensor_node.step",
+      "step": "3D_models/co2_sensor_node_rev2.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
